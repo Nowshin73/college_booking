@@ -1,0 +1,273 @@
+[
+   
+    {
+        "id": 1,
+        "collegename": "BMS College",
+        "clgimage": "image_url_1.jpg",
+        "admission-date": "2023-08-15",
+        "events": "Annual Fest, Technical Symposium",
+        "research_history": "Established in 1990, focused on Engineering research",
+        "sports": "Football, Basketball, Cricket"
+    },
+    {
+        "id": 2,
+        "collegename": "XYZ University",
+        "clgimage": "image_url_2.jpg",
+        "admission-date": "2023-09-01",
+        "events": "Cultural Carnival, Science Exhibition",
+        "research_history": "Known for advancements in Biotechnology",
+        "sports": "Tennis, Swimming, Athletics"
+    },
+    {
+        "id": 3,
+        "collegename": "ABC Institute of Technology",
+        "clgimage": "image_url_3.jpg",
+        "admission-date": "2023-07-30",
+        "events": "Tech Fest, Hackathon",
+        "research_history": "Pioneering work in Artificial Intelligence",
+        "sports": "Cricket, Badminton, Table Tennis"
+    },
+    {
+        "id": 4,
+        "collegename": "DEF College of Arts",
+        "clgimage": "image_url_4.jpg",
+        "admission-date": "2023-08-20",
+        "events": "Art Exhibition, Literary Fest",
+        "research_history": "Prominent in Visual Arts and Literature Studies",
+        "sports": "Volleyball, Chess, Archery"
+    },
+    {
+        "id": 5,
+        "collegename": "GHI Business School",
+        "clgimage": "image_url_5.jpg",
+        "admission-date": "2023-09-05",
+        "events": "Entrepreneurship Summit, Marketing Conference",
+        "research_history": "Focused on Business Analytics and Finance Research",
+        "sports": "Soccer, Golf, Squash"
+    },
+    {
+        "id": 6,
+        "collegename": "JKL Medical College",
+        "clgimage": "image_url_6.jpg",
+        "admission-date": "2023-07-28",
+        "events": "Medical Symposium, Health Camp",
+        "research_history": "Leader in Medical Research and Healthcare",
+        "sports": "Basketball, Tennis, Jogging"
+    },
+    {
+        "id": 7,
+        "collegename": "MNO Law School",
+        "clgimage": "image_url_7.jpg",
+        "admission-date": "2023-08-25",
+        "events": "Legal Conclave, Moot Court",
+        "research_history": "Renowned for Legal Studies and Advocacy Research",
+        "sports": "Badminton, Cricket, Yoga"
+    },
+    {
+        "id": 8,
+        "collegename": "PQR Design Institute",
+        "clgimage": "image_url_8.jpg",
+        "admission-date": "2023-09-10",
+        "events": "Design Expo, Fashion Show",
+        "research_history": "Innovative in Industrial and Graphic Design",
+        "sports": "Football, Cycling, Martial Arts"
+    },
+    {
+        "id": 9,
+        "collegename": "STU Music Academy",
+        "clgimage": "image_url_9.jpg",
+        "admission-date": "2023-07-31",
+        "events": "Music Festival, Choir Competition",
+        "research_history": "Celebrated for Music Composition and Ethnomusicology",
+        "sports": "Chess, Swimming, Karate"
+    },
+    {
+        "id": 10,
+        "collegename": "VWX Aviation Institute",
+        "clgimage": "image_url_10.jpg",
+        "admission-date": "2023-08-28",
+        "events": "Aerospace Expo, Flight Simulator Demonstration",
+        "research_history": "Leading in Aeronautics and Aviation Technology",
+        "sports": "Volleyball, Running, Hang Gliding"
+    },
+    {
+        "id": 11,
+        "collegename": "YZA Culinary School",
+        "clgimage": "image_url_11.jpg",
+        "admission-date": "2023-09-15",
+        "events": "Cooking Competition, Food Fair",
+        "research_history": "Innovative Culinary Arts and Gastronomy Research",
+        "sports": "Cooking Games, Food Tasting, Yoga"
+    },
+    {
+        "id": 12,
+        "collegename": "XVB Engineering College",
+        "clgimage": "image_url_12.jpg",
+        "admission-date": "2023-08-01",
+        "events": "Technical Symposium, Robotics Expo",
+        "research_history": "Leading in Electrical and Computer Engineering Research",
+        "sports": "Cricket, Football, Chess"
+    },
+    {
+        "id": 13,
+        "collegename": "WUC Environmental Institute",
+        "clgimage": "image_url_13.jpg",
+        "admission-date": "2023-08-30",
+        "events": "Green Earth Conference, Sustainability Workshop",
+        "research_history": "Prominent in Environmental Studies and Conservation",
+        "sports": "Basketball, Cycling, Hiking"
+    }, 
+    {
+        "id": 14,
+        "collegename": "TFZ Marine Biology School",
+        "clgimage": "image_url_14.jpg",
+        "admission-date": "2023-09-18",
+        "events": "Marine Life Exhibition, Oceanography Seminar",
+        "research_history": "Focused on Marine Biology and Oceanography",
+        "sports": "Swimming, Snorkeling, Water Polo"
+    },
+    {
+        "id": 15,
+        "collegename": "EAB Archaeology Institute",
+        "clgimage": "image_url_15.jpg",
+        "admission-date": "2023-08-05",
+        "events": "Archaeological Symposium, Ancient Artifacts Exhibition",
+        "research_history": "Distinguished in Archaeological Research and Heritage Studies",
+        "sports": "Archery, Volleyball, Trekking"
+    },
+    {
+        "id": 16,
+        "collegename": "YRC Social Work University",
+        "clgimage": "image_url_16.jpg",
+        "admission-date": "2023-08-31",
+        "events": "Community Outreach, Social Awareness Campaign",
+        "research_history": "Devoted to Social Work and Humanitarian Research",
+        "sports": "Football, Basketball, Cricket"
+    },
+    {
+        "id": 17,
+        "collegename": "XSD Linguistics College",
+        "clgimage": "image_url_17.jpg",
+        "admission-date": "2023-09-22",
+        "events": "Language Symposium,Linguistic Diversity Workshop",
+        "research_history": "Specialized in Linguistics and Language Studies",
+        "sports": "Chess, Debate, Table Tennis"
+    },
+    {
+        "id": 18,
+        "collegename": "WBA Astronomy School",
+        "clgimage": "image_url_18.jpg",
+        "admission-date": "2023-08-10",
+        "events": "Astronomy Conference, Star-Gazing Night",
+        "research_history": "Advancements in Astrophysics and Space Exploration",
+        "sports": "Astronomy, Basketball, Stargazing"
+    }, 
+    {
+        "id": 19,
+        "collegename": "VCT Mathematics Academy",
+        "clgimage": "image_url_19.jpg",
+        "admission-date": "2023-09-01",
+        "events": "Math Olympiad, Number Theory Workshop",
+        "research_history": "Renowned in Mathematics and Mathematical Sciences",
+        "sports": "Chess, Carom, Brain Games"
+    },
+    {
+        "id": 20,
+        "collegename": "UMB Physics Institute",
+        "clgimage": "image_url_20.jpg",
+        "admission-date": "2023-09-25",
+        "events": "Physics Symposium, Quantum Mechanics Lecture Series",
+        "research_history": "Leader in Physics and Theoretical Sciences",
+        "sports": "Cricket, Football, Chess"
+    },
+    {
+        "id": 21,
+        "collegename": "LKW Robotics College",
+        "clgimage": "image_url_21.jpg",
+        "admission-date": "2023-08-12",
+        "events": "Robotics Expo, AI Workshop",
+        "research_history": "Cutting-edge Research in Robotics and Artificial Intelligence",
+        "sports": "Robotics, Football, Chess"
+    },
+    {
+        "id": 22,
+        "collegename": "OPS Philosophy School",
+        "clgimage": "image_url_22.jpg",
+        "admission-date": "2023-09-05",
+        "events": "Philosophy Conference, Ethical Debates",
+        "research_history": "Prominent in Philosophical and Ethical Studies",
+        "sports": "Chess, Table Tennis, Yoga"
+    },
+    {
+        "id": 23,
+        "collegename": "AHJ Film Academy",
+        "clgimage": "image_url_23.jpg",
+        "admission-date": "2023-08-15",
+        "events": "Film Festival, Screenwriting Workshop",
+        "research_history": "Celebrated for Film Studies and Cinematography Research",
+        "sports": "Basketball, Chess, Yoga"
+    }, 
+    {
+        "id": 24,
+        "collegename": "BCD Dance School",
+        "clgimage": "image_url_24.jpg",
+        "admission-date": "2023-09-08",
+        "events": "Dance Showcase, Choreography Competition",
+        "research_history": "Innovative Dance Forms and Movement Studies",
+        "sports": "Dance, Yoga, Aerobics"
+    },
+    {
+        "id": 25,
+        "collegename": "FGE Earth Sciences University",
+        "clgimage": "image_url_25.jpg",
+        "admission-date": "2023-08-18",
+        "events": "Geology Summit, Meteorology Seminar",
+        "research_history": "Distinguished in Earth Sciences and Environmental Geology",
+        "sports": "Rock Climbing, Hiking, Football"
+    },
+    {
+        "id": 26,
+        "collegename": "IKM Horticulture Institute",
+        "clgimage": "image_url_26.jpg",
+        "admission-date": "2023-09-10",
+        "events": "Horticultural Expo, Gardening Workshop",
+        "research_history": "Specialized in Horticulture and Plant Sciences",
+        "sports": "Gardening, Badminton, Yoga"
+    }, 
+    {
+        "id": 27,
+        "collegename": "ZYX Psychology School",
+        "clgimage": "image_url_27.jpg",
+        "admission-date": "2023-08-20",
+        "events": "Psychology Conference, Mental Health Awareness",
+        "research_history": "Leader in Psychological Studies and Behavioral Research",
+        "sports": "Chess, Yoga, Table Tennis"
+    },
+    {
+        "id": 28,
+        "collegename": "TSR Geography College",
+        "clgimage": "image_url_28.jpg",
+        "admission-date": "2023-09-12",
+        "events": "Geography Seminar, Cartography Workshop",
+        "research_history": "Prominent in Geography and Geospatial Sciences",
+        "sports": "Hiking, Football, Table Tennis"
+    }, 
+    {
+        "id": 29,
+        "collegename": "LMN Social Sciences University",
+        "clgimage": "image_url_29.jpg",
+        "admission-date": "2023-08-22",
+        "events": "Social Sciences Symposium, Anthropology Exhibition",
+        "research_history": "Devoted to Social Sciences and Cultural Studies",
+        "sports": "Basketball, Cricket, Yoga"
+    }, 
+    {
+        "id": 30,
+        "collegename": "POQ Education Institute",
+        "clgimage": "image_url_30.jpg",
+        "admission-date": "2023-09-15",
+        "events": "Education Summit, Teaching Techniques Workshop",
+        "research_history": "Innovative Education and Pedagogy Research",
+        "sports": "Chess, Yoga, Volleyball"
+    }
+]
