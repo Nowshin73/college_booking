@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const AdmissionForm = () => {
   const [selectedCollege, setSelectedCollege] = useState(null);
@@ -13,14 +13,16 @@ const AdmissionForm = () => {
     // For simplicity, we'll just log the data for now
     console.log(candidate);
   };
+  const [colleges, setColleges] = useState([]);
+  //const [instructors, setInstructors] = useState([]);
 
-  // Sample college names data
-  const collegeNames = [
-    { id: 1, name: 'College A' },
-    { id: 2, name: 'College B' },
-    { id: 3, name: 'College C' },
-    // Add more college names as needed
-  ];
+  useEffect(() => {
+      fetch('http://localhost:5000/colleges')
+          .then(response => response.json())
+          .then(data => setColleges(data))
+          .catch(error => console.error('Error fetching classes:', error));
+  }, []);
+  //const allColleges = colleges.slice(0, 10);
 
   const [candidate, setCandidate] = useState({
     name: '',
@@ -41,15 +43,15 @@ const AdmissionForm = () => {
       <h1 className="text-2xl font-bold mb-4">Admission Form</h1>
       <div className="grid grid-cols-2 gap-4">
         {/* College names */}
-        {collegeNames.map((college) => (
+        {colleges.map((college) => (
           <div
             key={college.id}
-            className={`p-2 border rounded cursor-pointer ${
-              selectedCollege === college.id ? 'bg-blue-500 text-white' : ''
+            className={`p-2 border-2  rounded cursor-pointer ${
+              selectedCollege === college.id ? 'bg-blue-500 text-white' : 'bg-[#f2e747a6]'
             }`}
             onClick={() => handleCollegeClick(college.id)}
           >
-            {college.name}
+            {college.collegename}
           </div>
         ))}
       </div>

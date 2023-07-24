@@ -12,7 +12,7 @@ const Colleges = () => {
           .then(data => setColleges(data))
           .catch(error => console.error('Error fetching classes:', error));
   }, []);
-  const allColleges = colleges.slice(0, 10);
+  const allColleges = colleges.slice(0, 20);
   return (
     <div className="container mx-auto flex flex-wrap justify-center">
       {allColleges.map((college) => (
