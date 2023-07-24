@@ -25,19 +25,14 @@ async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
-    const classCollection = client.db("photography").collection("classes");
-    const instructorCollection = client.db("photography").collection("instructors");
-    const usersCollection = client.db("photography").collection("users");
-    const AdminCollection = client.db("photography").collection("admin");
-    const cartCollection = client.db("photography").collection("cart");
-    const myclassCollection = client.db("photography").collection("myclasses");
-    const paymentCollection = client.db("photography").collection("payment");
+    const collegeCollection = client.db("collegebooking").collection("colleges");
+    
 
-    app.get('/classes', async (req, res) => {
-      const result = await classCollection.find().toArray();
+    app.get('/colleges', async (req, res) => {
+      const result = await collegeCollection.find().toArray();
       res.send(result);
     })
-    app.get('/classes/:id', async (req, res) => {
+    app.get('/colleges/:id', async (req, res) => {
       const id = req.params.id;
       const query = { _id: new ObjectId(id) }
 
@@ -216,9 +211,9 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-  res.send('photography  is running')
+  res.send('college booking  is running')
 })
 
 app.listen(port, () => {
-  console.log(`photography is running on port ${port}`);
+  console.log(`college booking is running on port ${port}`);
 })

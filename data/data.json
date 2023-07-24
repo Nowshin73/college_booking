@@ -1,273 +1,627 @@
 [
-   
-    {
-        "id": 1,
-        "collegename": "BMS College",
-        "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-        "admission-date": "2023-08-15",
-        "events": "Annual Fest, Technical Symposium",
-        "research_history": "Established in 1990, focused on Engineering research",
-        "sports": "Football, Basketball, Cricket"
-    },
-    {
-        "id": 2,
-        "collegename": "XYZ University",
-        "clgimage": "image_url_2.jpg",
-        "admission-date": "2023-09-01",
-        "events": "Cultural Carnival, Science Exhibition",
-        "research_history": "Known for advancements in Biotechnology",
-        "sports": "Tennis, Swimming, Athletics"
-    },
-    {
-        "id": 3,
-        "collegename": "ABC Institute of Technology",
-        "clgimage": "image_url_3.jpg",
-        "admission-date": "2023-07-30",
-        "events": "Tech Fest, Hackathon",
-        "research_history": "Pioneering work in Artificial Intelligence",
-        "sports": "Cricket, Badminton, Table Tennis"
-    },
-    {
-        "id": 4,
-        "collegename": "DEF College of Arts",
-        "clgimage": "image_url_4.jpg",
-        "admission-date": "2023-08-20",
-        "events": "Art Exhibition, Literary Fest",
-        "research_history": "Prominent in Visual Arts and Literature Studies",
-        "sports": "Volleyball, Chess, Archery"
-    },
-    {
-        "id": 5,
-        "collegename": "GHI Business School",
-        "clgimage": "image_url_5.jpg",
-        "admission-date": "2023-09-05",
-        "events": "Entrepreneurship Summit, Marketing Conference",
-        "research_history": "Focused on Business Analytics and Finance Research",
-        "sports": "Soccer, Golf, Squash"
-    },
-    {
-        "id": 6,
-        "collegename": "JKL Medical College",
-        "clgimage": "image_url_6.jpg",
-        "admission-date": "2023-07-28",
-        "events": "Medical Symposium, Health Camp",
-        "research_history": "Leader in Medical Research and Healthcare",
-        "sports": "Basketball, Tennis, Jogging"
-    },
-    {
-        "id": 7,
-        "collegename": "MNO Law School",
-        "clgimage": "image_url_7.jpg",
-        "admission-date": "2023-08-25",
-        "events": "Legal Conclave, Moot Court",
-        "research_history": "Renowned for Legal Studies and Advocacy Research",
-        "sports": "Badminton, Cricket, Yoga"
-    },
-    {
-        "id": 8,
-        "collegename": "PQR Design Institute",
-        "clgimage": "image_url_8.jpg",
-        "admission-date": "2023-09-10",
-        "events": "Design Expo, Fashion Show",
-        "research_history": "Innovative in Industrial and Graphic Design",
-        "sports": "Football, Cycling, Martial Arts"
-    },
-    {
-        "id": 9,
-        "collegename": "STU Music Academy",
-        "clgimage": "image_url_9.jpg",
-        "admission-date": "2023-07-31",
-        "events": "Music Festival, Choir Competition",
-        "research_history": "Celebrated for Music Composition and Ethnomusicology",
-        "sports": "Chess, Swimming, Karate"
-    },
-    {
-        "id": 10,
-        "collegename": "VWX Aviation Institute",
-        "clgimage": "image_url_10.jpg",
-        "admission-date": "2023-08-28",
-        "events": "Aerospace Expo, Flight Simulator Demonstration",
-        "research_history": "Leading in Aeronautics and Aviation Technology",
-        "sports": "Volleyball, Running, Hang Gliding"
-    },
-    {
-        "id": 11,
-        "collegename": "YZA Culinary School",
-        "clgimage": "image_url_11.jpg",
-        "admission-date": "2023-09-15",
-        "events": "Cooking Competition, Food Fair",
-        "research_history": "Innovative Culinary Arts and Gastronomy Research",
-        "sports": "Cooking Games, Food Tasting, Yoga"
-    },
-    {
-        "id": 12,
-        "collegename": "XVB Engineering College",
-        "clgimage": "image_url_12.jpg",
-        "admission-date": "2023-08-01",
-        "events": "Technical Symposium, Robotics Expo",
-        "research_history": "Leading in Electrical and Computer Engineering Research",
-        "sports": "Cricket, Football, Chess"
-    },
-    {
-        "id": 13,
-        "collegename": "WUC Environmental Institute",
-        "clgimage": "image_url_13.jpg",
-        "admission-date": "2023-08-30",
-        "events": "Green Earth Conference, Sustainability Workshop",
-        "research_history": "Prominent in Environmental Studies and Conservation",
-        "sports": "Basketball, Cycling, Hiking"
-    }, 
-    {
-        "id": 14,
-        "collegename": "TFZ Marine Biology School",
-        "clgimage": "image_url_14.jpg",
-        "admission-date": "2023-09-18",
-        "events": "Marine Life Exhibition, Oceanography Seminar",
-        "research_history": "Focused on Marine Biology and Oceanography",
-        "sports": "Swimming, Snorkeling, Water Polo"
-    },
-    {
-        "id": 15,
-        "collegename": "EAB Archaeology Institute",
-        "clgimage": "image_url_15.jpg",
-        "admission-date": "2023-08-05",
-        "events": "Archaeological Symposium, Ancient Artifacts Exhibition",
-        "research_history": "Distinguished in Archaeological Research and Heritage Studies",
-        "sports": "Archery, Volleyball, Trekking"
-    },
-    {
-        "id": 16,
-        "collegename": "YRC Social Work University",
-        "clgimage": "image_url_16.jpg",
-        "admission-date": "2023-08-31",
-        "events": "Community Outreach, Social Awareness Campaign",
-        "research_history": "Devoted to Social Work and Humanitarian Research",
-        "sports": "Football, Basketball, Cricket"
-    },
-    {
-        "id": 17,
-        "collegename": "XSD Linguistics College",
-        "clgimage": "image_url_17.jpg",
-        "admission-date": "2023-09-22",
-        "events": "Language Symposium,Linguistic Diversity Workshop",
-        "research_history": "Specialized in Linguistics and Language Studies",
-        "sports": "Chess, Debate, Table Tennis"
-    },
-    {
-        "id": 18,
-        "collegename": "WBA Astronomy School",
-        "clgimage": "image_url_18.jpg",
-        "admission-date": "2023-08-10",
-        "events": "Astronomy Conference, Star-Gazing Night",
-        "research_history": "Advancements in Astrophysics and Space Exploration",
-        "sports": "Astronomy, Basketball, Stargazing"
-    }, 
-    {
-        "id": 19,
-        "collegename": "VCT Mathematics Academy",
-        "clgimage": "image_url_19.jpg",
-        "admission-date": "2023-09-01",
-        "events": "Math Olympiad, Number Theory Workshop",
-        "research_history": "Renowned in Mathematics and Mathematical Sciences",
-        "sports": "Chess, Carom, Brain Games"
-    },
-    {
-        "id": 20,
-        "collegename": "UMB Physics Institute",
-        "clgimage": "image_url_20.jpg",
-        "admission-date": "2023-09-25",
-        "events": "Physics Symposium, Quantum Mechanics Lecture Series",
-        "research_history": "Leader in Physics and Theoretical Sciences",
-        "sports": "Cricket, Football, Chess"
-    },
-    {
-        "id": 21,
-        "collegename": "LKW Robotics College",
-        "clgimage": "image_url_21.jpg",
-        "admission-date": "2023-08-12",
-        "events": "Robotics Expo, AI Workshop",
-        "research_history": "Cutting-edge Research in Robotics and Artificial Intelligence",
-        "sports": "Robotics, Football, Chess"
-    },
-    {
-        "id": 22,
-        "collegename": "OPS Philosophy School",
-        "clgimage": "image_url_22.jpg",
-        "admission-date": "2023-09-05",
-        "events": "Philosophy Conference, Ethical Debates",
-        "research_history": "Prominent in Philosophical and Ethical Studies",
-        "sports": "Chess, Table Tennis, Yoga"
-    },
-    {
-        "id": 23,
-        "collegename": "AHJ Film Academy",
-        "clgimage": "image_url_23.jpg",
-        "admission-date": "2023-08-15",
-        "events": "Film Festival, Screenwriting Workshop",
-        "research_history": "Celebrated for Film Studies and Cinematography Research",
-        "sports": "Basketball, Chess, Yoga"
-    }, 
-    {
-        "id": 24,
-        "collegename": "BCD Dance School",
-        "clgimage": "image_url_24.jpg",
-        "admission-date": "2023-09-08",
-        "events": "Dance Showcase, Choreography Competition",
-        "research_history": "Innovative Dance Forms and Movement Studies",
-        "sports": "Dance, Yoga, Aerobics"
-    },
-    {
-        "id": 25,
-        "collegename": "FGE Earth Sciences University",
-        "clgimage": "image_url_25.jpg",
-        "admission-date": "2023-08-18",
-        "events": "Geology Summit, Meteorology Seminar",
-        "research_history": "Distinguished in Earth Sciences and Environmental Geology",
-        "sports": "Rock Climbing, Hiking, Football"
-    },
-    {
-        "id": 26,
-        "collegename": "IKM Horticulture Institute",
-        "clgimage": "image_url_26.jpg",
-        "admission-date": "2023-09-10",
-        "events": "Horticultural Expo, Gardening Workshop",
-        "research_history": "Specialized in Horticulture and Plant Sciences",
-        "sports": "Gardening, Badminton, Yoga"
-    }, 
-    {
-        "id": 27,
-        "collegename": "ZYX Psychology School",
-        "clgimage": "image_url_27.jpg",
-        "admission-date": "2023-08-20",
-        "events": "Psychology Conference, Mental Health Awareness",
-        "research_history": "Leader in Psychological Studies and Behavioral Research",
-        "sports": "Chess, Yoga, Table Tennis"
-    },
-    {
-        "id": 28,
-        "collegename": "TSR Geography College",
-        "clgimage": "image_url_28.jpg",
-        "admission-date": "2023-09-12",
-        "events": "Geography Seminar, Cartography Workshop",
-        "research_history": "Prominent in Geography and Geospatial Sciences",
-        "sports": "Hiking, Football, Table Tennis"
-    }, 
-    {
-        "id": 29,
-        "collegename": "LMN Social Sciences University",
-        "clgimage": "image_url_29.jpg",
-        "admission-date": "2023-08-22",
-        "events": "Social Sciences Symposium, Anthropology Exhibition",
-        "research_history": "Devoted to Social Sciences and Cultural Studies",
-        "sports": "Basketball, Cricket, Yoga"
-    }, 
-    {
-        "id": 30,
-        "collegename": "POQ Education Institute",
-        "clgimage": "image_url_30.jpg",
-        "admission-date": "2023-09-15",
-        "events": "Education Summit, Teaching Techniques Workshop",
-        "research_history": "Innovative Education and Pedagogy Research",
-        "sports": "Chess, Yoga, Volleyball"
-    }
+  {
+    "id": 1,
+    "collegename": "BMS College",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-08-15",
+    "events": "Annual Fest, Technical Symposium",
+    "research_history": "Established in 1990, focused on Engineering research",
+    "sports": "Football, Basketball, Cricket", 
+    "grad_img":"https://i.ibb.co/31B6kzW/image.png",
+    "research_papers": [
+      {
+        "title": "Advancements in Robotics",
+        "link": "https://example.com/research-paper-1"
+      },
+      {
+        "title": "Sustainable Energy Solutions",
+        "link": "https://example.com/research-paper-2"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "JohnDoe",
+        "comment": "Great college with excellent faculty.",
+        "rating": 4.5
+      },
+      {
+        "username": "JaneSmith",
+        "comment": "Loved the campus atmosphere!",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "collegename": "XYZ University",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-09-01",
+    "events": "Cultural Fest, Hackathon",
+    "research_history": "Pioneering research in various fields",
+    "grad_img":"https://i.ibb.co/M6p9cWk/image.png",
+    "sports": "Cricket, Badminton, Table Tennis",
+    "research_papers": [
+      {
+        "title": "AI in Healthcare",
+        "link": "https://example.com/research-paper-3"
+      },
+      {
+        "title": "Data Privacy and Security",
+        "link": "https://example.com/research-paper-4"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "RobertJohnson",
+        "comment": "Excellent university with diverse programs.",
+        "rating": 4.8
+      },
+      {
+        "username": "EmmaWilliams",
+        "comment": "Supportive faculty and great resources!",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "collegename": "ABC Institute of Technology",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-07-30",
+    "events": "Tech Expo, Alumni Meet",
+    "research_history": "Leading in cutting-edge technology research",
+    "sports": "Basketball, Volleyball, Athletics",
+    "grad_img":"https://i.ibb.co/JrrKSJn/image.png",
+    "research_papers": [
+      {
+        "title": "Artificial Intelligence Applications",
+        "link": "https://example.com/research-paper-5"
+      },
+      {
+        "title": "Blockchain and Distributed Ledgers",
+        "link": "https://example.com/research-paper-6"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "MichaelBrown",
+        "comment": "Top-notch technology institute!",
+        "rating": 4.9
+      },
+      {
+        "username": "OliviaDavis",
+        "comment": "Great opportunities for research enthusiasts.",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "collegename": "PQR Engineering College",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-08-25",
+    "events": "Fresher's Party, Robotics Challenge",
+    "research_history": "Innovative solutions for real-world problems",
+    "sports": "Football, Cricket, Kabaddi",
+    "grad_img":"https://i.ibb.co/8dqxnFq/image.png",
+    "research_papers": [
+      {
+        "title": "Renewable Energy Technologies",
+        "link": "https://example.com/research-paper-7"
+      },
+      {
+        "title": "Sustainable Urban Development",
+        "link": "https://example.com/research-paper-8"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "WilliamClark",
+        "comment": "Great engineering college with excellent labs.",
+        "rating": 4.7
+      },
+      {
+        "username": "SophiaLee",
+        "comment": "Enjoyed the hands-on projects!",
+        "rating": 4.9
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "collegename": "LMN Arts Institute",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-09-10",
+    "events": "Art Exhibition, Literary Fest",
+    "research_history": "Promoting creativity and artistic expression",
+    "sports": "Chess, Carrom, Yoga",
+    "grad_img":"https://i.ibb.co/VxMpZRb/image.png",
+    "research_papers": [
+      {
+        "title": "Evolution of Modern Art",
+        "link": "https://example.com/research-paper-9"
+      },
+      {
+        "title": "Literary Theory and Criticism",
+        "link": "https://example.com/research-paper-10"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "EmilyScott",
+        "comment": "A place to explore your creativity!",
+        "rating": 4.8
+      },
+      {
+        "username": "DanielWang",
+        "comment": "Inspiring workshops and events.",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "collegename": "EFG Medical College",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-07-28",
+    "events": "Health Camp, Medical Conference",
+    "research_history": "Advancing medical sciences through research",
+    "sports": "Tennis, Swimming, Athletics",
+    "research_papers": [
+      {
+        "title": "Medical Breakthroughs in Genetics",
+        "link": "https://example.com/research-paper-11"
+      },
+      {
+        "title": "Innovations in Surgical Techniques",
+        "link": "https://example.com/research-paper-12"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "AvaAllen",
+        "comment": "Top-notch medical education.",
+        "rating": 4.9
+      },
+      {
+        "username": "EthanGarcia",
+        "comment": "Dedicated faculty and excellent facilities.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "collegename": "UVW Business School",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-08-20",
+    "events": "Entrepreneurship Summit, Corporate Meet",
+    "research_history": "Driving innovation in business and management",
+    "sports": "Cricket, Football, Golf",
+    "research_papers": [
+      {
+        "title": "Leadership Strategies in Business",
+        "link": "https://example.com/research-paper-13"
+      },
+      {
+        "title": "Sustainable Business Practices",
+        "link": "https://example.com/research-paper-14"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "OliverWilson",
+        "comment": "The best business school I've attended!",
+        "rating": 4.8
+      },
+      {
+        "username": "MiaSmith",
+        "comment": "Practical learning approach.",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "collegename": "HIJ Music Academy",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-09-05",
+    "events": "Music Festival, Talent Show",
+    "research_history": "Preserving and promoting musical heritage",
+    "sports": "None",
+    "research_papers": [
+      {
+        "title": "Classical Music Traditions",
+        "link": "https://example.com/research-paper-15"
+      },
+      {
+        "title": "Music Psychology and Emotion",
+        "link": "https://example.com/research-paper-16"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "JamesJohnson",
+        "comment": "Highly skilled instructors!",
+        "rating": 4.9
+      },
+      {
+        "username": "EllaBrown",
+        "comment": "An enriching musical experience.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "collegename": "KLM Law School",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-07-22",
+    "events": "Moot Court, Legal Symposium",
+    "research_history": "Shaping the legal landscape through research",
+    "sports": "Cricket, Basketball, Volleyball",
+    "research_papers": [
+      {
+        "title": "Environmental Law and Sustainability",
+        "link": "https://example.com/research-paper-17"
+      },
+      {
+        "title": "Human Rights and Social Justice",
+        "link": "https://example.com/research-paper-18"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "SophiaMiller",
+        "comment": "Great law school with dedicated faculty.",
+        "rating": 4.8
+      },
+      {
+        "username": "LucasSmith",
+        "comment": "Moot court experience was invaluable!",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "collegename": "OPQ Design Institute",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-08-10",
+    "events": "Design Expo, Fashion Show",
+    "research_history": "Innovative designs for a sustainable future",
+    "sports": "Badminton, Table Tennis, Chess",
+    "research_papers": [
+      {
+        "title": "Sustainable Architecture Design",
+        "link": "https://example.com/research-paper-19"
+      },
+      {
+        "title": "Sustainable Fashion Trends",
+        "link": "https://example.com/research-paper-20"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "EmmaWilson",
+        "comment": "Amazing design institute with creative opportunities.",
+        "rating": 4.7
+      },
+      {
+        "username": "NoahTaylor",
+        "comment": "A hub for design enthusiasts!",
+        "rating": 4.9
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "collegename": "RST Film School",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-09-15",
+    "events": "Film Festival, Workshops",
+    "research_history": "Promoting cinematic excellence and storytelling",
+    "sports": "Football, Basketball, Cricket",
+    "research_papers": [
+      {
+        "title": "Evolution of Film Genres",
+        "link": "https://example.com/research-paper-21"
+      },
+      {
+        "title": "Impact of Visual Effects in Cinema",
+        "link": "https://example.com/research-paper-22"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "OliviaJohnson",
+        "comment": "Excellent film school with talented instructors.",
+        "rating": 4.8
+      },
+      {
+        "username": "JackRobinson",
+        "comment": "Inspiring and creative environment.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "collegename": "CDE Hotel Management Institute",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-07-28",
+    "events": "Hospitality Fair, Culinary Contest",
+    "research_history": "Innovations in hospitality and culinary arts",
+    "sports": "Volleyball, Basketball, Swimming",
+    "research_papers": [
+      {
+        "title": "Sustainable Practices in the Hospitality Industry",
+        "link": "https://example.com/research-paper-23"
+      },
+      {
+        "title": "Culinary Tourism and Food Culture",
+        "link": "https://example.com/research-paper-24"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "SophiaBrown",
+        "comment": "Top-class hospitality education.",
+        "rating": 4.9
+      },
+      {
+        "username": "WilliamMiller",
+        "comment": "Loved the culinary workshops!",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "collegename": "FGH Aviation Academy",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-08-12",
+    "events": "Aviation Expo, Pilot Training",
+    "research_history": "Advancing aviation technology and safety",
+    "sports": "Cricket, Football, Chess",
+    "research_papers": [
+      {
+        "title": "Future of Unmanned Aerial Vehicles",
+        "link": "https://example.com/research-paper-25"
+      },
+      {
+        "title": "Aircraft Maintenance and Safety Protocols",
+        "link": "https://example.com/research-paper-26"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "NoahAnderson",
+        "comment": "Highly professional aviation training.",
+        "rating": 4.7
+      },
+      {
+        "username": "AvaWilson",
+        "comment": "Experienced instructors and well-equipped facilities.",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "collegename": "IJK Science Institute",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-09-25",
+    "events": "Science Fair, Research Conference",
+    "research_history": "Pushing the boundaries of scientific knowledge",
+    "sports": "Badminton, Athletics, Table Tennis",
+    "research_papers": [
+      {
+        "title": "Frontiers in Space Exploration",
+        "link": "https://example.com/research-paper-27"
+      },
+      {
+        "title": "Advancements in Biotechnology",
+        "link": "https://example.com/research-paper-28"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "EthanSmith",
+        "comment": "Cutting-edge research opportunities!",
+        "rating": 4.9
+      },
+      {
+        "username": "MiaMartin",
+        "comment": "Impressive science programs.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "collegename": "LMN Institute of Social Sciences",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-07-30",
+    "events": "Social Impact Summit, Community Outreach",
+    "research_history": "Addressing societal challenges through research",
+    "sports": "Cricket, Basketball, Volleyball",
+    "research_papers": [
+      {
+        "title": "Social Change and Policy Development",
+        "link": "https://example.com/research-paper-29"
+      },
+      {
+        "title": "Gender Studies and Feminism",
+        "link": "https://example.com/research-paper-30"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "OliverHarris",
+        "comment": "Impactful social sciences education.",
+        "rating": 4.8
+      },
+      {
+        "username": "EmmaJohnson",
+        "comment": "Engaging discussions and seminars.",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "collegename": "EFG Commerce College",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-08-10",
+    "events": "Business Expo, Finance Symposium",
+    "research_history": "Advancing knowledge in commerce and finance",
+    "sports": "Cricket, Football, Basketball",
+    "research_papers": [
+      {
+        "title": "International Trade and Globalization",
+        "link": "https://example.com/research-paper-31"
+      },
+      {
+        "title": "Financial Technology and Digital Banking",
+        "link": "https://example.com/research-paper-32"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "SophiaMiller",
+        "comment": "Excellent commerce college with industry exposure.",
+        "rating": 4.7
+      },
+      {
+        "username": "LucasWilson",
+        "comment": "Great learning environment for aspiring professionals.",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "collegename": "UVW Language School",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-09-02",
+    "events": "Language Fair, Linguistics Workshop",
+    "research_history": "Exploring languages and linguistic diversity",
+    "sports": "Table Tennis, Chess, Carrom",
+    "research_papers": [
+      {
+        "title": "Language Revitalization and Endangered Languages",
+        "link": "https://example.com/research-paper-33"
+      },
+      {
+        "title": "Language Acquisition and Bilingualism",
+        "link": "https://example.com/research-paper-34"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "EmilySmith",
+        "comment": "A language school that fosters linguistic passion.",
+        "rating": 4.8
+      },
+      {
+        "username": "DanielJohnson",
+        "comment": "Dedicated faculty and immersive language programs.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "collegename": "HIJ Architecture Institute",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-08-20",
+    "events": "Architectural Expo, Design Workshops",
+    "research_history": "Shaping the future of architecture and urban planning",
+    "sports": "Football, Basketball, Volleyball",
+    "research_papers": [
+      {
+        "title": "Sustainable Urban Design and Green Buildings",
+        "link": "https://example.com/research-paper-35"
+      },
+      {
+        "title": "Architectural Conservation and Heritage",
+        "link": "https://example.com/research-paper-36"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "LucyDavis",
+        "comment": "Leading institute for architectural studies.",
+        "rating": 4.9
+      },
+      {
+        "username": "OliverThomas",
+        "comment": "Excellent exposure to diverse architectural styles.",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "collegename": "KLM Education College",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-09-05",
+    "events": "Education Symposium, Teacher Training",
+    "research_history": "Enhancing the quality of education through research",
+    "sports": "Cricket, Football, Badminton",
+    "research_papers": [
+      {
+        "title": "Inclusive Education and Special Needs Teaching",
+        "link": "https://example.com/research-paper-37"
+      },
+      {
+        "title": "Digital Learning and Educational Technology",
+        "link": "https://example.com/research-paper-38"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "EllaClark",
+        "comment": "A college that nurtures future educators.",
+        "rating": 4.7
+      },
+      {
+        "username": "MichaelSmith",
+        "comment": "Inspiring mentorship from experienced faculty.",
+        "rating": 4.9
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "collegename": "OPQ Pharmacy School",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "admission-date": "2023-07-28",
+    "events": "Pharma Expo, Drug Research",
+    "research_history": "Advancing pharmaceutical sciences for better healthcare",
+    "sports": "Basketball, Volleyball, Athletics",
+    "research_papers": [
+      {
+        "title": "Pharmacology and Drug Development",
+        "link": "https://example.com/research-paper-39"
+      },
+      {
+        "title": "Pharmaceutical Nanotechnology",
+        "link": "https://example.com/research-paper-40"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "JamesBrown",
+        "comment": "Excellent pharmacy education and research opportunities.",
+        "rating": 4.8
+      },
+      {
+        "username": "AvaMiller",
+        "comment": "Cutting-edge facilities and supportive faculty.",
+        "rating": 4.7
+      }
+    ]
+  }
 ]
