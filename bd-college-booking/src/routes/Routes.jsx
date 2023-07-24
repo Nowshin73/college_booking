@@ -5,9 +5,11 @@ import Main from '../layout/Main'
 import { createBrowserRouter } from 'react-router-dom'
 import Login from '../pages/login/Login'
 import Colleges from '../pages/colleges/Colleges'
+import userProfile from '../pages/user/userProfile'
 import MyCollege from '../pages/mycolleges/MyCollege'
 import AdmissionForm from '../pages/admission/AdmissionForm'
 import CollegeDetail from '../pages/colleges/CollegeDetail'
+import PrivateRoute from './PrivateRoute'
 
 
 export const router = createBrowserRouter([
@@ -33,7 +35,7 @@ export const router = createBrowserRouter([
         },
         {
             path: '/colleges/:id',
-            element: <CollegeDetail></CollegeDetail>,
+            element: <PrivateRoute><CollegeDetail></CollegeDetail></PrivateRoute>,
             loader: ({params}) => fetch(`http://localhost:5000/colleges/${params.id}`)
         },
         {
@@ -43,6 +45,10 @@ export const router = createBrowserRouter([
         {
             path: '/mycollege/:id',
             element: <MyCollege></MyCollege>
+        },
+        {
+            path: '/profile/:id',
+            element: <userProfile></userProfile>
         },
         {
             path: '/admission',

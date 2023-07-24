@@ -25,8 +25,8 @@ const Navbar = () => {
             <ActiveLink to='/login' className="text-white hover:text-gray-300">
               Login
             </ActiveLink>
-            <ActiveLink to='/signup' className="text-white hover:text-gray-300">
-              Sign up
+            <ActiveLink to='/profile' className="text-white hover:text-gray-300">
+              Profile
             </ActiveLink>
           </div>
         </div>
