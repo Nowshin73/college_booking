@@ -26,7 +26,7 @@ const SignUp = () => {
 
         const updateuser = updateUserProfile(data.name, data.photoURL)
         if (updateuser) {
-          axios.post('https://b7a12-summer-camp-server-side-nowshin73.vercel.app/users', { email: data.email, name: data.name, photo: data.photoURL })
+          axios.post('http://localhost:5000/users', { email: data.email, name: data.name, photo: data.photoURL })
 
         }
         Swal.fire({
@@ -41,58 +41,7 @@ const SignUp = () => {
       })
 
       .catch(error => console.log(error));
-
-    // .then(() => {
-    //     const saveUser = { name: data.name, email: data.email }
-    //     fetch('https://b7a12-summer-camp-server-side-nowshin73.vercel.app/users', {
-    //         method: 'POST',
-    //         headers: {
-    //             'content-type': 'application/json'
-    //         },
-    //         body: JSON.stringify(saveUser)
-    //     })
-    //         .then(res => res.json())
-    //         .then(data => {
-    //             if (data.insertedId) {
-    //                 reset();
-    //                 Swal.fire({
-    //                     position: 'top-end',
-    //                     icon: 'success',
-    //                     title: 'User created successfully.',
-    //                     showConfirmButton: false,
-    //                     timer: 1500
-    //                 });
-    //                 navigate('/');
-    //             }
-    //         })
-
-
-
-    // })
-
-
-  };
-
-  // const onSubmit = async (data) => {
-  //   try {
-  //     const response = await axios.post('https://b7a12-summer-camp-server-side-nowshin73.vercel.app/users', data);
-  //     console.log(response.data);
-
-  //             Swal.fire({
-  //                 position: 'top-end',
-  //                 icon: 'success',
-  //                 title: 'User created successfully.',
-  //                 showConfirmButton: false,
-  //                 timer: 1500
-  //             });
-  //             navigate('/');
-
-  //     // Redirect to login page or perform other actions
-  //   } catch (error) {
-  //     console.error(error);
-  //   }
-  // };
-
+    }
   return (
     <div className="login container w-full py-10">
       <form onSubmit={handleSubmit(onSubmit)} className='mx-auto max-w-[500px] bg-[#f4f1f1d6] rounded-lg shadow-md py-5 px-10'>
@@ -189,19 +138,8 @@ const SignUp = () => {
           <label className="block font-bold mb-2" htmlFor="photoURL">Photo URL</label>
           <input className="border rounded w-full py-2 px-3" type="text" {...register('photoURL')} />
         </div>
-        {/* <div className="mb-4">
-          <label className="block font-bold mb-2" htmlFor="gender">Gender</label>
-          <input className="border rounded w-full py-2 px-3" type="text" {...register('gender')} />
-        </div>
-        <div className="mb-4">
-          <label className="block font-bold mb-2" htmlFor="phoneNumber">Phone Number</label>
-          <input className="border rounded w-full py-2 px-3" type="tel" {...register('phoneNumber')} />
-        </div>
-        <div className="mb-4">
-          <label className="block font-bold mb-2" htmlFor="address">Address</label>
-          <input className="border rounded w-full py-2 px-3" type="text" {...register('address')} />
-        </div> */}
-        <button className="button-primary text-white rounded" type="submit">Register</button>
+       
+        <button className="button-primary bg-blue-950 p-2 text-white rounded" type="submit">Register</button>
       </form>
     </div>
   );

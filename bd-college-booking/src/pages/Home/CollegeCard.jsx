@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const CollegeCard = ({ college }) => {
-    const { id, collegename, clgimage, admission_date, events, research_history, sports } = college;
+    const {_id, collegename, clgimage, admission_date, events, research_history, sports } = college;
   return (
     <div className="bg-white rounded-lg shadow-md p-4">
     <img src={clgimage} alt={collegename} className="w-full h-40 object-cover mb-2 rounded-md" />
@@ -11,7 +11,7 @@ const CollegeCard = ({ college }) => {
     <p className="text-gray-600 mb-2">Events: {events}</p>
     <p className="text-gray-600 mb-2">Research History: {research_history}</p>
     <p className="text-gray-600 mb-2">Sports: {sports}</p>
-    <Link to={`/college/${id}`} className="text-blue-500 font-medium hover:underline">
+    <Link to={`/colleges/${_id}`} className="text-blue-500 font-medium hover:underline">
       Details
     </Link>
   </div>
