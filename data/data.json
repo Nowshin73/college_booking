@@ -3,7 +3,7 @@
     {
         "id": 1,
         "collegename": "BMS College",
-        "clgimage": "image_url_1.jpg",
+        "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
         "admission-date": "2023-08-15",
         "events": "Annual Fest, Technical Symposium",
         "research_history": "Established in 1990, focused on Engineering research",

@@ -1,4 +1,5 @@
 import React from "react";
+import ActiveLink from "./ActiveLink";
 
 const Navbar = () => {
   return (
@@ -6,21 +7,21 @@ const Navbar = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <div>
-            <span className="text-white text-xl font-bold">My College App</span>
+            <span className="text-white text-xl font-bold">College Booking</span>
           </div>
           <div className="hidden md:flex space-x-4">
-            <a href="#" className="text-white hover:text-gray-300">
+            <ActiveLink to='/' className="text-white hover:text-gray-300">
               Home
-            </a>
-            <a href="#" className="text-white hover:text-gray-300">
+            </ActiveLink>
+            <ActiveLink to='/colleges' className="text-white hover:text-gray-300">
               Colleges
-            </a>
-            <a href="#" className="text-white hover:text-gray-300">
+            </ActiveLink>
+            <ActiveLink to='/admission' className="text-white hover:text-gray-300">
               Admission
-            </a>
-            <a href="#" className="text-white hover:text-gray-300">
+            </ActiveLink>
+            <ActiveLink to='mycollege' className="text-white hover:text-gray-300">
               My College
-            </a>
+            </ActiveLink>
           </div>
         </div>
       </div>
