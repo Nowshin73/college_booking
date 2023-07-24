@@ -3,7 +3,7 @@ import ActiveLink from "./ActiveLink";
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-500 p-4">
+    <nav className="bg-blue-950 p-4">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <div>

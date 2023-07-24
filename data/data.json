@@ -3,11 +3,12 @@
     "id": 1,
     "collegename": "BMS College",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-08-15",
+    "admission_date": "2023-08-15",
+    "admission_process": "Apply online through the college website and attend a counseling session.",
     "events": "Annual Fest, Technical Symposium",
     "research_history": "Established in 1990, focused on Engineering research",
-    "sports": "Football, Basketball, Cricket", 
-    "grad_img":"https://i.ibb.co/31B6kzW/image.png",
+    "sports": "Football, Basketball, Cricket",
+    "grad_img": "https://i.ibb.co/31B6kzW/image.png",
     "research_papers": [
       {
         "title": "Advancements in Robotics",
@@ -35,11 +36,12 @@
     "id": 2,
     "collegename": "XYZ University",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-09-01",
+    "admission_date": "2023-09-01",
+    "admission_process": "Submit the application form online and clear the entrance exam.",
     "events": "Cultural Fest, Hackathon",
     "research_history": "Pioneering research in various fields",
-    "grad_img":"https://i.ibb.co/M6p9cWk/image.png",
     "sports": "Cricket, Badminton, Table Tennis",
+    "grad_img": "https://i.ibb.co/M6p9cWk/image.png",
     "research_papers": [
       {
         "title": "AI in Healthcare",
@@ -67,11 +69,12 @@
     "id": 3,
     "collegename": "ABC Institute of Technology",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-07-30",
+    "admission_date": "2023-07-30",
+    "admission_process": "Admission based on merit and entrance exam scores.",
     "events": "Tech Expo, Alumni Meet",
     "research_history": "Leading in cutting-edge technology research",
     "sports": "Basketball, Volleyball, Athletics",
-    "grad_img":"https://i.ibb.co/JrrKSJn/image.png",
+    "grad_img": "https://i.ibb.co/JrrKSJn/image.png",
     "research_papers": [
       {
         "title": "Artificial Intelligence Applications",
@@ -99,11 +102,12 @@
     "id": 4,
     "collegename": "PQR Engineering College",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-08-25",
+    "admission_date": "2023-08-25",
+    "admission_process": "Admission through counseling based on JEE Main scores.",
     "events": "Fresher's Party, Robotics Challenge",
     "research_history": "Innovative solutions for real-world problems",
     "sports": "Football, Cricket, Kabaddi",
-    "grad_img":"https://i.ibb.co/8dqxnFq/image.png",
+    "grad_img": "https://i.ibb.co/8dqxnFq/image.png",
     "research_papers": [
       {
         "title": "Renewable Energy Technologies",
@@ -131,11 +135,12 @@
     "id": 5,
     "collegename": "LMN Arts Institute",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-09-10",
+    "admission_date": "2023-09-10",
+    "admission_process": "Admission through auditions and portfolio review for arts programs.",
     "events": "Art Exhibition, Literary Fest",
     "research_history": "Promoting creativity and artistic expression",
     "sports": "Chess, Carrom, Yoga",
-    "grad_img":"https://i.ibb.co/VxMpZRb/image.png",
+    "grad_img": "https://i.ibb.co/VxMpZRb/image.png",
     "research_papers": [
       {
         "title": "Evolution of Modern Art",
@@ -163,10 +168,12 @@
     "id": 6,
     "collegename": "EFG Medical College",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-07-28",
+    "admission_date": "2023-07-28",
+    "admission_process": "Admission through NEET scores and counseling.",
     "events": "Health Camp, Medical Conference",
     "research_history": "Advancing medical sciences through research",
     "sports": "Tennis, Swimming, Athletics",
+    "grad_img": "https://i.ibb.co/JrrKSJn/image.png",
     "research_papers": [
       {
         "title": "Medical Breakthroughs in Genetics",
@@ -194,10 +201,12 @@
     "id": 7,
     "collegename": "UVW Business School",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-08-20",
+    "admission_date": "2023-08-20",
+    "admission_process": "Admission through CAT or GMAT scores followed by group discussion and interview.",
     "events": "Entrepreneurship Summit, Corporate Meet",
     "research_history": "Driving innovation in business and management",
     "sports": "Cricket, Football, Golf",
+    "grad_img": "https://i.ibb.co/NjXLXqX/image.png",
     "research_papers": [
       {
         "title": "Leadership Strategies in Business",
@@ -225,10 +234,12 @@
     "id": 8,
     "collegename": "HIJ Music Academy",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-09-05",
+    "admission_date": "2023-09-05",
+    "admission_process": "Admission through auditions and music aptitude test.",
     "events": "Music Festival, Talent Show",
     "research_history": "Preserving and promoting musical heritage",
     "sports": "None",
+    "grad_img": "https://i.ibb.co/31B6kzW/image.png",
     "research_papers": [
       {
         "title": "Classical Music Traditions",
@@ -256,10 +267,12 @@
     "id": 9,
     "collegename": "KLM Law School",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-07-22",
+    "admission_date": "2023-07-22",
+    "admission_process": "Admission through CLAT scores and counseling.",
     "events": "Moot Court, Legal Symposium",
     "research_history": "Shaping the legal landscape through research",
     "sports": "Cricket, Basketball, Volleyball",
+    "grad_img": "https://i.ibb.co/31B6kzW/image.png",
     "research_papers": [
       {
         "title": "Environmental Law and Sustainability",
@@ -287,41 +300,46 @@
     "id": 10,
     "collegename": "OPQ Design Institute",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-08-10",
+    "admission_date": "2023-08-10",
+    "admission_process": "Admission through entrance exam, portfolio review, and personal interview.",
     "events": "Design Expo, Fashion Show",
     "research_history": "Innovative designs for a sustainable future",
-    "sports": "Badminton, Table Tennis, Chess",
+    "sports": "Table Tennis, Basketball, Yoga",
+    "grad_img": "https://i.ibb.co/M6p9cWk/image.png",
     "research_papers": [
       {
-        "title": "Sustainable Architecture Design",
+        "title": "Sustainable Fashion Trends",
         "link": "https://example.com/research-paper-19"
       },
       {
-        "title": "Sustainable Fashion Trends",
+        "title": "Design Thinking in Product Development",
         "link": "https://example.com/research-paper-20"
       }
     ],
     "reviews": [
       {
-        "username": "EmmaWilson",
-        "comment": "Amazing design institute with creative opportunities.",
-        "rating": 4.7
+        "username": "HarperAnderson",
+        "comment": "Top-class design institute!",
+        "rating": 4.9
       },
       {
-        "username": "NoahTaylor",
-        "comment": "A hub for design enthusiasts!",
-        "rating": 4.9
+        "username": "AriaGarcia",
+        "comment": "Inspiring design concepts and workshops.",
+        "rating": 4.7
       }
     ]
   },
+  
   {
     "id": 11,
     "collegename": "RST Film School",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-09-15",
+    "admission_date": "2023-09-15",
+    "admission_process": "Admission through portfolio review and interview.",
     "events": "Film Festival, Workshops",
     "research_history": "Promoting cinematic excellence and storytelling",
     "sports": "Football, Basketball, Cricket",
+    "grad_img": "https://i.ibb.co/31B6kzW/image.png",
     "research_papers": [
       {
         "title": "Evolution of Film Genres",
@@ -349,10 +367,12 @@
     "id": 12,
     "collegename": "CDE Hotel Management Institute",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-07-28",
+    "admission_date": "2023-07-28",
+    "admission_process": "Admission through entrance exam and personal interview.",
     "events": "Hospitality Fair, Culinary Contest",
     "research_history": "Innovations in hospitality and culinary arts",
     "sports": "Volleyball, Basketball, Swimming",
+    "grad_img": "https://i.ibb.co/31B6kzW/image.png",
     "research_papers": [
       {
         "title": "Sustainable Practices in the Hospitality Industry",
@@ -380,10 +400,12 @@
     "id": 13,
     "collegename": "FGH Aviation Academy",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-08-12",
+    "admission_date": "2023-08-12",
+    "admission_process": "Admission through entrance exam and interview.",
     "events": "Aviation Expo, Pilot Training",
     "research_history": "Advancing aviation technology and safety",
     "sports": "Cricket, Football, Chess",
+    "grad_img": "https://i.ibb.co/31B6kzW/image.png",
     "research_papers": [
       {
         "title": "Future of Unmanned Aerial Vehicles",
@@ -411,10 +433,12 @@
     "id": 14,
     "collegename": "IJK Science Institute",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-09-25",
+    "admission_date": "2023-09-25",
+    "admission_process": "Admission through entrance exam and counseling.",
     "events": "Science Fair, Research Conference",
     "research_history": "Pushing the boundaries of scientific knowledge",
     "sports": "Badminton, Athletics, Table Tennis",
+    "grad_img": "https://i.ibb.co/31B6kzW/image.png",
     "research_papers": [
       {
         "title": "Frontiers in Space Exploration",
@@ -442,10 +466,12 @@
     "id": 15,
     "collegename": "LMN Institute of Social Sciences",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-07-30",
+    "admission_date": "2023-07-30",
+    "admission_process": "Admission through entrance exam and interview.",
     "events": "Social Impact Summit, Community Outreach",
     "research_history": "Addressing societal challenges through research",
     "sports": "Cricket, Basketball, Volleyball",
+    "grad_img": "https://i.ibb.co/31B6kzW/image.png",
     "research_papers": [
       {
         "title": "Social Change and Policy Development",
@@ -473,10 +499,12 @@
     "id": 16,
     "collegename": "EFG Commerce College",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-08-10",
+    "admission_date": "2023-08-10",
+    "admission_process": "Admission through merit-based selection and interview.",
     "events": "Business Expo, Finance Symposium",
     "research_history": "Advancing knowledge in commerce and finance",
     "sports": "Cricket, Football, Basketball",
+    "grad_img": "https://i.ibb.co/31B6kzW/image.png",
     "research_papers": [
       {
         "title": "International Trade and Globalization",
@@ -504,10 +532,12 @@
     "id": 17,
     "collegename": "UVW Language School",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-09-02",
+    "admission_date": "2023-09-02",
+    "admission_process": "Admission through language proficiency test.",
     "events": "Language Fair, Linguistics Workshop",
     "research_history": "Exploring languages and linguistic diversity",
     "sports": "Table Tennis, Chess, Carrom",
+    "grad_img": "https://i.ibb.co/31B6kzW/image.png",
     "research_papers": [
       {
         "title": "Language Revitalization and Endangered Languages",
@@ -535,10 +565,12 @@
     "id": 18,
     "collegename": "HIJ Architecture Institute",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-08-20",
+    "admission_date": "2023-08-20",
+    "admission_process": "Admission through NATA exam and interview.",
     "events": "Architectural Expo, Design Workshops",
     "research_history": "Shaping the future of architecture and urban planning",
     "sports": "Football, Basketball, Volleyball",
+    "grad_img": "https://i.ibb.co/31B6kzW/image.png",
     "research_papers": [
       {
         "title": "Sustainable Urban Design and Green Buildings",
@@ -566,62 +598,68 @@
     "id": 19,
     "collegename": "KLM Education College",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-09-05",
+    "admission_date": "2023-09-05",
+    "admission_process": "Admission through entrance exam and interview.",
     "events": "Education Symposium, Teacher Training",
-    "research_history": "Enhancing the quality of education through research",
-    "sports": "Cricket, Football, Badminton",
+    "research_history": "Advancing teaching methods and learning theories",
+    "sports": "Badminton, Cricket, Table Tennis",
+    "grad_img": "https://i.ibb.co/31B6kzW/image.png",
     "research_papers": [
       {
-        "title": "Inclusive Education and Special Needs Teaching",
+        "title": "Innovations in Classroom Technology",
         "link": "https://example.com/research-paper-37"
       },
       {
-        "title": "Digital Learning and Educational Technology",
+        "title": "Social-Emotional Learning in Schools",
         "link": "https://example.com/research-paper-38"
       }
     ],
     "reviews": [
       {
-        "username": "EllaClark",
-        "comment": "A college that nurtures future educators.",
+        "username": "OliviaSmith",
+        "comment": "Comprehensive training for future educators.",
         "rating": 4.7
       },
       {
-        "username": "MichaelSmith",
-        "comment": "Inspiring mentorship from experienced faculty.",
-        "rating": 4.9
+        "username": "JamesJohnson",
+        "comment": "Supportive faculty and practical teaching experience.",
+        "rating": 4.8
       }
     ]
   },
   {
     "id": 20,
-    "collegename": "OPQ Pharmacy School",
+    "collegename": "XYZ Institute of Dance",
     "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
-    "admission-date": "2023-07-28",
-    "events": "Pharma Expo, Drug Research",
-    "research_history": "Advancing pharmaceutical sciences for better healthcare",
-    "sports": "Basketball, Volleyball, Athletics",
+    "admission_date": "2023-08-15",
+    "admission_process": "Admission through dance audition and interview.",
+    "events": "Annual Dance Showcase, Workshops",
+    "research_history": "Preserving and innovating the art of dance",
+    "sports": "Football, Volleyball, Basketball",
+    "grad_img": "https://i.ibb.co/31B6kzW/image.png",
     "research_papers": [
       {
-        "title": "Pharmacology and Drug Development",
+        "title": "Evolution of Dance in Different Cultures",
         "link": "https://example.com/research-paper-39"
       },
       {
-        "title": "Pharmaceutical Nanotechnology",
+        "title": "Choreography: Tradition and Innovation",
         "link": "https://example.com/research-paper-40"
       }
     ],
     "reviews": [
       {
-        "username": "JamesBrown",
-        "comment": "Excellent pharmacy education and research opportunities.",
-        "rating": 4.8
+        "username": "LilyBrown",
+        "comment": "Outstanding institute for dance enthusiasts.",
+        "rating": 4.9
       },
       {
-        "username": "AvaMiller",
-        "comment": "Cutting-edge facilities and supportive faculty.",
-        "rating": 4.7
+        "username": "OliverJohnson",
+        "comment": "Passionate instructors and encouraging environment.",
+        "rating": 4.8
       }
     ]
   }
 ]
+  
+

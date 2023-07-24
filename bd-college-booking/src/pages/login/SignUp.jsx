@@ -1,6 +1,5 @@
 import { useForm } from 'react-hook-form';
 import Swal from 'sweetalert2'
-import "./login.css"
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { useContext, useState } from 'react';
