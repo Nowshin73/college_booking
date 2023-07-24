@@ -19,8 +19,14 @@ const Navbar = () => {
             <ActiveLink to='/admission' className="text-white hover:text-gray-300">
               Admission
             </ActiveLink>
-            <ActiveLink to='mycollege' className="text-white hover:text-gray-300">
+            <ActiveLink to='/mycollege' className="text-white hover:text-gray-300">
               My College
+            </ActiveLink>
+            <ActiveLink to='/login' className="text-white hover:text-gray-300">
+              Login
+            </ActiveLink>
+            <ActiveLink to='/signup' className="text-white hover:text-gray-300">
+              Sign up
             </ActiveLink>
           </div>
         </div>
