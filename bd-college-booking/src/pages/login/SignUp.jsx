@@ -26,7 +26,7 @@ const SignUp = () => {
 
         const updateuser = updateUserProfile(data.name, data.photoURL)
         if (updateuser) {
-          axios.post('https://college-booking-lake.vercel.app/users', { email: data.email, name: data.name, photo: data.photoURL })
+          axios.post(' https://college-booking-rosy.vercel.app/users', { email: data.email, name: data.name, photo: data.photoURL })
 
         }
         Swal.fire({

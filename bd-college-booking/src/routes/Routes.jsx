@@ -36,7 +36,7 @@ export const router = createBrowserRouter([
         {
             path: '/colleges/:id',
             element: <PrivateRoute><CollegeDetail></CollegeDetail></PrivateRoute>,
-            loader: ({params}) => fetch(`https://college-booking-lake.vercel.app/colleges/${params.id}`)
+            loader: ({params}) => fetch(` https://college-booking-rosy.vercel.app/colleges/${params.id}`)
         },
         {
             path: '/mycollege',

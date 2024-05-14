@@ -17,7 +17,7 @@ const AdmissionForm = () => {
   //const [instructors, setInstructors] = useState([]);
 
   useEffect(() => {
-      fetch('https://college-booking-lake.vercel.app/colleges')
+      fetch(' https://college-booking-rosy.vercel.app/colleges')
           .then(response => response.json())
           .then(data => setColleges(data))
           .catch(error => console.error('Error fetching classes:', error));
