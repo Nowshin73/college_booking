@@ -9,6 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import ResearchPapersSection from "./ResearchPaperSection";
 import ReviewSection from "./ReviewSection";
+import Banner from "../../components/banner/Banner";
 const Home = () => {
 
     const [searchQuery, setSearchQuery] = useState("");
@@ -38,6 +39,8 @@ const Home = () => {
     const gallery = colleges.slice(0, 5);
     return (
         <div>
+            {/* Banner section */}
+            <Banner></Banner>
             <div className="container mx-auto mt-4">
                 <div className="w-full flex md:w-1/3 mx-auto">
                     <input
