@@ -37,10 +37,10 @@ function Banner() {
 
                             <div className="headline-container px-2 py-2 j mx-4 my-4 items-center flex  self-center">
                                 <p className='headline bg-[#3553b8] text-white text-4xl w-[350px] mb-5 p-2 font-semibold'>College admissions are going on</p>
-                                <p className='des bg-yellow-300 relative -left-2 top-20 w-[350px] p-4 font-semibold'>Lorem ipsum, dolor sit amet
+                                <p className='des bg-yellow-300 relative -left-4 top-24 w-[350px] p-4 font-semibold'>Lorem ipsum, dolor sit amet
                                     consectetur adipisicing elit. Aliquid voluptatum ipsum veniam facilis.
                                     Architecto, dolorum sunt quisquam libero rem obcaecati adipisci saepe a.</p>
-                                <Link to=''><button className='btn-secondary relative -left-4 top-40 self-center hover:text-white border-2 border-[#172554] font-semibold px-4 py-2 rounded-md bg-white text-black hover:bg-[#172554]'>Explore</button></Link>
+                                <Link to=''><button className='btn-secondary relative -left-8 top-44 self-center hover:text-white border-2 border-[#172554] font-semibold px-4 py-2 rounded-md bg-white text-black hover:bg-[#172554]'>Explore</button></Link>
                             </div>
 
                         </div>
