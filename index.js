@@ -28,7 +28,13 @@ async function run() {
     const collegeCollection = client.db("collegebooking").collection("colleges");
     const mycollegeCollection = client.db("collegebooking").collection("mycolleges");
     const userCollection = client.db("collegebooking").collection("users");
+    const bannerCollection = client.db("collegebooking").collection("banner");
     
+    //get banner
+    app.get('/banner', async (req,res) => {
+       const result = await bannerCollection.find().toArray();
+       res.send(result);
+    })
 
     app.get('/colleges', async (req, res) => {
       const result = await collegeCollection.find().toArray();
