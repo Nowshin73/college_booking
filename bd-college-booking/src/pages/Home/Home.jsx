@@ -11,8 +11,6 @@ import ResearchPapersSection from "./ResearchPaperSection";
 import ReviewSection from "./ReviewSection";
 import Banner from "../../components/banner/Banner";
 const Home = () => {
-
-    const [searchQuery, setSearchQuery] = useState("");
     const [colleges, setColleges] = useState([]);
     //const [instructors, setInstructors] = useState([]);
 
@@ -22,38 +20,47 @@ const Home = () => {
             .then(data => setColleges(data))
             .catch(error => console.error('Error fetching classes:', error));
     }, []);
+    const allColleges = colleges.slice(0, 3);
+
+    const [searchQuery, setSearchQuery] = useState("");
+    const [filtercolleges, setFilteredColleges] = useState(allColleges);
     const onSearch = (query) => {
-        // Here, you should implement the logic to filter colleges based on the search query.
-        // For this example, let's assume you have a list of colleges stored in a constant `allColleges`.
-        // You can filter the colleges based on the `query` and update the `colleges` state accordingly.
-        const filteredColleges = colleges.filter((college) =>
-            college.collegename.toLowerCase().includes(query.toLowerCase())
-        );
-        setColleges(filteredColleges);
+        if (query === "") {
+            setFilteredColleges(allColleges);
+        }
+        else{
+            const Colleges = colleges.filter((college) =>
+                college.collegename.toLowerCase().includes(query.toLowerCase())
+            );
+            setFilteredColleges(Colleges);
+        }
+
     };
     const handleSearch = (e) => {
         setSearchQuery(e.target.value);
         onSearch(e.target.value);
     };
-    const allColleges = colleges.slice(0, 3);
+   
     const gallery = colleges.slice(0, 5);
     return (
         <div>
             {/* Banner section */}
             <Banner></Banner>
-            <div className="container mx-auto mt-4">
+
+            {/* Search Section Added */}
+            <div className="container mx-auto py-14 bg-white">
                 <div className="w-full flex md:w-1/3 mx-auto">
                     <input
                         type="text"
                         value={searchQuery}
                         onChange={handleSearch}
-                        className="w-full border-2 border-blue-500 rounded p-2"
+                        className="w-full border-2 border-blue-500  rounded p-2"
                         placeholder="Search for a college name"
                     />
                     <button
                         onSubmit={handleSearch}
                         type="submit"
-                        className="bg-white text-blue-500 font-medium py-2 px-4 rounded-md hover:bg-blue-100"
+                        className="btn-secondary shadow-2xl  self-center text-white border-2 border-[#172554] font-semibold px-4 py-2 rounded-md hover:bg-white hover:text-black bg-[#172554]"
                     >
                         Search
                     </button>
@@ -61,7 +68,7 @@ const Home = () => {
             </div>
             <div className="container mx-auto mt-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {allColleges.map((college, index) => (
+                    {filtercolleges.map((college, index) => (
                         <CollegeCard key={index} college={college} />
                     ))}
                 </div>
