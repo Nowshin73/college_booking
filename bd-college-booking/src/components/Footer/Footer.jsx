@@ -14,7 +14,7 @@ const Footer = () => {
            <div
           className="brandname text-white font-bold text-2xl mt-10">
 
-          <span> College Booking </span>
+          <span> CU College Admission </span>
         </div>
        </div>
        <div className="f-wrapper">
@@ -39,7 +39,7 @@ const Footer = () => {
     </div>   
     <div className="footer-bottom">   
           <div className="f-left">
-              <span >Copyright ⓒ 2023 College Booking. All rights reserved.</span>
+              <span >Copyright ⓒ 2023 CU College Admission. All rights reserved.</span>
           </div> 
         <div className="f-right">
            <a><FiFacebook></FiFacebook></a>

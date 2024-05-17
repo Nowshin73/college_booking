@@ -140,9 +140,9 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-  res.send('college booking  is running')
+  res.send('CU College Admission  is running')
 })
 
 app.listen(port, () => {
-  console.log(`college booking is running on port ${port}`);
+  console.log(`CU College Admission is running on port ${port}`);
 })

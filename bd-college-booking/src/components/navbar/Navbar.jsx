@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <div>
-            <span className="text-white text-xl font-bold">College Booking</span>
+            <span className="text-white text-xl font-bold">CU College Admission</span>
           </div>
           <div className="hidden md:flex space-x-4">
             <ActiveLink to='/' className="text-white hover:text-gray-300">
