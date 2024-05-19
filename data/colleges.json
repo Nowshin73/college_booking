@@ -129,28 +129,35 @@
 
         "id":4,
         "collegename": "Chittagong Institute Of Fashion & Technology (CITF)",
-        "clgimage":"",
+        "clgimage":["https://i.ibb.co/0jMn4n6/image.png","https://i.ibb.co/pjgfyRm/image.png","https://i.ibb.co/NWkycvp/image.png"],
         "collegelocation":"Road-2, House-27, O.R. Nizam Road, GEC, Chattogram.",
-        "collegedes":"",
+        "collegedes":"The program is designed for the students to enhance their conceptual and practical skills in fashion design and transform their conceptual skills into finished garments. After completing this program, students will acquire knowledge to improve their ability to innovate and design new products and processes. This broad-based education will open so many opportunities for the students to choose their careers as Fashion Designers, Design Studio Managers, Fashion Illustrator, Product Developer, Sample Developer, Pattern & style designer, Quality Assurance Managers, Retailers, Fashion Merchandiser, Visual Merchandiser at home and abroad. Another core aim of this program is to prepare the students technically sound for their job work field so that they can contribute to the nation's economic growth and make them suitable and productive citizens.",
+        "grad_img":"https://i.ibb.co/CmtsfN0/image.png",
         "research_papers": [
          {
-           "title":"",
-           "link":""
+           "title":"Fasion Designs for Old Women",
+           "author":"M.M. Mahfuz Siraz, Nayeem Uddin Ahmed Khan",
+           "link":"www.example.com"
          }   
         ],
         "reviews":[
             {
-                "username":"",
-                "comment":"",
-                "rating":""
+                "username":"Md Shahidul Islam",
+                "comment":"A massive skyscraper. It demonstrates the mightyness of our beloved Chittagong City.Absolutely loved it. It has good security, lifts, services etcetera.",
+                "rating":5
+            },
+            {
+                "username":"Ibrat Ullah Khan",
+                "comment":"It is a professional Institution for apparel sectors. It was established by Bangladesh Garments Mnufacturers  and Experts Association in 2002. It is located at 5 th floor of BGMEA building  It aims at generating qualified personnel across the country with updated technology.  It provides Bsc Hons degree on Apparel Manufacturing and Technology, Fashion Design and Technology Textile Engineering, and textile Diploma on Management etc. This Honours degrees are started on 2013. Textile diploma are started from beginning. It has well enriched classrooms, library, laboratory, WiFi service and internship facilities to different Ready made garments sectors. This institution is fully air conditioned. This degrees are given by this institution with the affiliations of National University Gazipur.",
+                "rating":4
             }
         ],
         "events":[
             {
-                "eventname":"",
-                "starting_date":"",
-                "closing_date":"",
-                "eventdescription":""
+                "eventname":"Admission at Fasion Design",
+                "starting_date":"29 May, 2024",
+                "closing_date":"5 July, 2024",
+                "eventdescription":"The program is designed for the students to enhance their conceptual and practical skills in fashion design"
             }
         ]
 
