@@ -9,7 +9,8 @@ const ResearchPapersSection = ({ collegeName, researchPapers }) => {
           <li key={index}>
             <a href={paper.link} target="_blank" rel="noopener noreferrer" className="text-blue-300 font-semibold text-lg underline">
               {paper.title}
-            </a>
+            </a> <br/>
+            <p className='text-white font-semibold text-lg'>{paper.author}</p>
           </li>
         ))}
       </ul>

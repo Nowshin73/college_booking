@@ -47,8 +47,8 @@ async function run() {
       const options = {
         // Include only the `title` and `imdb` fields in the returned document
         projection: {
-          id: 1, collegename: 1, clgimage: 1, admission_date: 1, admission_process: 1, events: 1,
-          research_history: 1, sports: 1, reviews: 1, grad_img: 1, research_papers: 1
+          id: 1, collegename: 1, clgimage: 1, collegelocation: 1, collegedes: 1, events: 1,
+          research_papers: 1, reviews: 1, grad_img: 1
         },
       };
       const result = await collegeCollection.findOne(query, options);
