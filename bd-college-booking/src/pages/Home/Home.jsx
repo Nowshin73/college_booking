@@ -66,13 +66,22 @@ const Home = () => {
                     </button>
                 </div>
             </div>
-            <div className="container mx-auto mt-8">
+           { searchQuery? ( <div className="container mx-auto mt-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     {filtercolleges.map((college, index) => (
                         <CollegeCard key={index} college={college} />
                     ))}
                 </div>
-            </div>
+            </div>)
+            :
+            ( <div className="container mx-auto mt-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {allColleges.map((college, index) => (
+                        <CollegeCard key={index} college={college} />
+                    ))}
+                </div>
+            </div>)
+            }
             <section>
                 <div className="container  mx-auto mt-8 mb-20">
                     <h2 className="text-2xl font-bold mb-4 text-center"> Graduation Day</h2>

@@ -41,7 +41,8 @@ function Banner() {
             >
               { banner.map((data,index)=> ( 
                 <SwiperSlide>
-                    <div id={data._id} key={index} className={`container relative w-full flex bg-[url("${data.banner_img}")] bg-cover flex-col justify-center h-[92vh]`}>
+                    <div id={data._id} style={{ backgroundImage: `url(${data.banner_img})` }} key={index} 
+                    className={`container relative w-full flex bg-[#1725547d] bg-cover flex-col justify-center h-[92vh]`}>
                         {/* <img className="-z-20 h-full bg-cover" src="https://i.ibb.co/Rj55hCY/image.png" alt="" /> */}
                         <div className="text-container relative top-30 flex flex-col justify-center ">
                             <h1 className='text-6xl mb-10 p-2 text-center font-bold text-white bg-[#172554b5]'>{data.headline1}</h1>

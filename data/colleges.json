@@ -1,0 +1,314 @@
+[
+    {
+
+        "id":1,
+        "collegename": "BGC TRUST MEDICAL COLLEGE",
+        "clgimage":["https://i.ibb.co/YpwNv1M/image.png","https://i.ibb.co/xJ8tYBC/image.png","https://i.ibb.co/vz4zkjF/image.png","https://i.ibb.co/KG6XQhQ/image.png"],
+        "collegelocation":"62X9+434 BGC Biddyanagar, Chittagong - Cox's Bazar Hwy, Chandanaish",
+        "collegedes":"The College is recognized by the Bangladesh Medical and Dental Council since ----.BGCTMC has been enlisted in the World Directory of Medical Schools effective ------ published by World Health Organization which entitles the graduates of BMC recognition all over the world. Graduates of BMC are eligible for limited registration. They are also eligible to take the United States Medical License Examinations (USMLE). At present, all the male students reside in the hostel, arranged by the college authority in the adjacent area to the campus at Chandanaish, Female students have their own 'Mother Theresa Girl's Hostel'. The college authority has planned to make hostel for all the male students within the campus or surrounding area with a purpose to make the college a fully residential, till then transport facilities for the students will be provided by the college authority.",
+        "grad_img":"https://i.ibb.co/Zdn5Bcc/image.png",
+        "research_papers": [
+         {
+           "title":"Comparative in-vitro dissolution study and infrared characterization of binary solid dispersion of diclofenac sodium",
+           "author":"Sharmin Akhter, Jewel Barua, Md. Salahuddin, Rupantar Dey, Joysree Dasand Anowara Jenny",
+           "link":"https://www.researchgate.net/profile/M-Salahuddin/publication/308795036_Comparative_in-vitro_dissolution_study_and_infrared_characterization_of_binary_solid_dispersion_of_diclofenac_sodium/links/57f279f508ae91deaa58fb1b/Comparative-in-vitro-dissolution-study-and-infrared-characterization-of-binary-solid-dispersion-of-diclofenac-sodium.pdf"
+         },
+         {
+            "title":"In-vitro evaluation of binary and ternary carbamazepine solid dispersion",
+            "author":"Sharmin Akhter, 2, A. K. M. Saif Uddin, Md. Salahuddin, Md. Waseque Mia, Sukalyan Kumar Kunduand Mohammad Fahim Kadir ",
+            "link":"https://d1wqtxts1xzle7.cloudfront.net/108324274/42135-libre.pdf?1701699688=&response-content-disposition=inline%3B+filename%3DIn_vitro_evaluation_of_binary_and_ternar.pdf&Expires=1716122951&Signature=NCW59zm-grpHq3kHY3RiVT8xYORDc2qieRLOtVX0rtDguupiWdW3XxuQtF-vu79XI2ctmPuPHZkRU-TMYfMP9d9r6w0Vr~Yk0RdmcPSkYJks3rzX4Yu-y89WCptg7rrj9rols6uci99QnSmgXUPaVmgDJnM-VvDMZxRCwYxF8o6X7W6Gmb~nXOiATYAr~iVvLcKKBK5Epuvnz3STDc~Fk~6f37t3OZS7YVxv3RLsh8gSqsx~AU7H8n9QARWh0jWO2zrcVhpEkY9V6G4kse0sS5a7iwcTRclhIaED07KtXLrBuLIrfzYKmvzaWyzANtClzTkxMOvp-S~KaLkToRs96w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"
+          }     
+        ],
+        "reviews":[
+            {
+                "username":"AvaAllen",
+                "comment":"Top-notch medical education.",
+                "rating":4.9
+            },
+            {
+                "username":"EthanGarcia",
+                "comment":"Dedicated faculty and excellent facilities.",
+                "rating":4
+            }
+        ],
+        "events":[
+            {
+                "eventname":"",
+                "starting_date":"",
+                "closing_date":"",
+                "eventdescription":""
+            }
+        ]
+
+    },
+    {
+
+        "id":1,
+        "collegename": "",
+        "clgimage":"",
+        "collegelocation":"",
+        "collegedes":"",
+        "research_papers": [
+         {
+           "title":"",
+           "link":""
+         }   
+        ],
+        "reviews":[
+            {
+                "username":"",
+                "comment":"",
+                "rating":""
+            }
+        ],
+        "events":[
+            {
+                "eventname":"",
+                "starting_date":"",
+                "closing_date":"",
+                "eventdescription":""
+            }
+        ]
+
+    },
+    {
+
+        "id":1,
+        "collegename": "",
+        "clgimage":"",
+        "collegelocation":"",
+        "collegedes":"",
+        "research_papers": [
+         {
+           "title":"",
+           "link":""
+         }   
+        ],
+        "reviews":[
+            {
+                "username":"",
+                "comment":"",
+                "rating":""
+            }
+        ],
+        "events":[
+            {
+                "eventname":"",
+                "starting_date":"",
+                "closing_date":"",
+                "eventdescription":""
+            }
+        ]
+
+    },
+    {
+
+        "id":1,
+        "collegename": "",
+        "clgimage":"",
+        "collegelocation":"",
+        "collegedes":"",
+        "research_papers": [
+         {
+           "title":"",
+           "link":""
+         }   
+        ],
+        "reviews":[
+            {
+                "username":"",
+                "comment":"",
+                "rating":""
+            }
+        ],
+        "events":[
+            {
+                "eventname":"",
+                "starting_date":"",
+                "closing_date":"",
+                "eventdescription":""
+            }
+        ]
+
+    },
+    {
+
+        "id":1,
+        "collegename": "",
+        "clgimage":"",
+        "collegelocation":"",
+        "collegedes":"",
+        "research_papers": [
+         {
+           "title":"",
+           "link":""
+         }   
+        ],
+        "reviews":[
+            {
+                "username":"",
+                "comment":"",
+                "rating":""
+            }
+        ],
+        "events":[
+            {
+                "eventname":"",
+                "starting_date":"",
+                "closing_date":"",
+                "eventdescription":""
+            }
+        ]
+
+    },
+    {
+
+        "id":1,
+        "collegename": "",
+        "clgimage":"",
+        "collegelocation":"",
+        "collegedes":"",
+        "research_papers": [
+         {
+           "title":"",
+           "link":""
+         }   
+        ],
+        "reviews":[
+            {
+                "username":"",
+                "comment":"",
+                "rating":""
+            }
+        ],
+        "events":[
+            {
+                "eventname":"",
+                "starting_date":"",
+                "closing_date":"",
+                "eventdescription":""
+            }
+        ]
+
+    },
+    {
+
+        "id":1,
+        "collegename": "",
+        "clgimage":"",
+        "collegelocation":"",
+        "collegedes":"",
+        "research_papers": [
+         {
+           "title":"",
+           "link":""
+         }   
+        ],
+        "reviews":[
+            {
+                "username":"",
+                "comment":"",
+                "rating":""
+            }
+        ],
+        "events":[
+            {
+                "eventname":"",
+                "starting_date":"",
+                "closing_date":"",
+                "eventdescription":""
+            }
+        ]
+
+    },
+    {
+
+        "id":1,
+        "collegename": "",
+        "clgimage":"",
+        "collegelocation":"",
+        "collegedes":"",
+        "research_papers": [
+         {
+           "title":"",
+           "link":""
+         }   
+        ],
+        "reviews":[
+            {
+                "username":"",
+                "comment":"",
+                "rating":""
+            }
+        ],
+        "events":[
+            {
+                "eventname":"",
+                "starting_date":"",
+                "closing_date":"",
+                "eventdescription":""
+            }
+        ]
+
+    },
+    {
+
+        "id":1,
+        "collegename": "",
+        "clgimage":"",
+        "collegelocation":"",
+        "collegedes":"",
+        "research_papers": [
+         {
+           "title":"",
+           "link":""
+         }   
+        ],
+        "reviews":[
+            {
+                "username":"",
+                "comment":"",
+                "rating":""
+            }
+        ],
+        "events":[
+            {
+                "eventname":"",
+                "starting_date":"",
+                "closing_date":"",
+                "eventdescription":""
+            }
+        ]
+
+    },
+    {
+
+        "id":1,
+        "collegename": "",
+        "clgimage":"",
+        "collegelocation":"",
+        "collegedes":"",
+        "research_papers": [
+         {
+           "title":"",
+           "link":""
+         }   
+        ],
+        "reviews":[
+            {
+                "username":"",
+                "comment":"",
+                "rating":""
+            }
+        ],
+        "events":[
+            {
+                "eventname":"",
+                "starting_date":"",
+                "closing_date":"",
+                "eventdescription":""
+            }
+        ]
+
+    }
+]
