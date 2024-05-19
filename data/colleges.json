@@ -23,7 +23,7 @@
             {
                 "username":"AvaAllen",
                 "comment":"Top-notch medical education.",
-                "rating":4.9
+                "rating":5
             },
             {
                 "username":"EthanGarcia",
@@ -43,70 +43,94 @@
     },
     {
 
-        "id":1,
-        "collegename": "",
-        "clgimage":"",
-        "collegelocation":"",
-        "collegedes":"",
+        "id":2,
+        "collegename": "Central Medical College & Hospital",
+        "clgimage":["https://i.ibb.co/pLY5PDk/image.png","https://i.ibb.co/YRChpcM/image.png","https://i.ibb.co/BT6CfKn/image.png"],
+        "collegelocation":"C56M+PPH, Dhaka - Chittagong Hwy, Paduar Bazar Bishwa Road",
+        "collegedes":"Central Medical College (CeMeC) (Bengali: সেন্ট্রাল মেডিকেল কলেজ) is a private medical school in Bangladesh, established in 2005. The main campus is located beside the Dhaka–Chittagong Highway at Paduar Bazar, Bishaw Road in Cumilla Sadar Dakshin Upazila, in the Cumilla District of Chittagong Division. It is affiliated with University of Chittagong, Ministry of Health and Family Welfare (Bangladesh) and Bangladesh Medical and Dental Council. It offers a five-year course of study leading to a Bachelor of Medicine, Bachelor of Surgery (MBBS) degree. A one-year or two-year internship after graduation is compulsory for all graduates.[1] The degree is recognised by the Bangladesh Medical and Dental Council.",
+        "grad_img":"https://i.ibb.co/JKTFQn8/image.png",
         "research_papers": [
          {
-           "title":"",
-           "link":""
+           "title":"Management of Giant Cell Tumor by Curettage and Bone graft in Weight Bearing Bone - A Study Done in CENTRAL MEDICAL COLLEGE",
+           "author":"Md Kawser Hamid, Md Mainul Hasan, Md Arifur Rahaman, Mohammad Emdadul Hoque",
+           "link":"https://www.banglajol.info/index.php/CeMeCJ/article/view/70822"
+         },   
+         {
+           "title":"Evaluation of effectiveness of Letrozole in treatment of infertility in women with polycystic ovary syndrome",
+           "author":"Md Kawser Hamid, Md Mainul Hasan, Md Arifur Rahaman, Mohammad Emdadul Hoque",
+           "link":"https://www.banglajol.info/index.php/CeMeCJ/article/view/70827"
          }   
         ],
         "reviews":[
             {
-                "username":"",
-                "comment":"",
-                "rating":""
+                "username":"Nazmul Hasan",
+                "comment":"Very Much Good service provide with less cost. They have some good doctor available here but Medicine representative are create much problem for patient. Doctor are also try to prescribe their commission type medicine. For some doctor I think they should need to talk sincerely with patients.",
+                "rating":4
+            },
+            {
+                "username":"Dr. Tanvir Ahmed",
+                "comment":"This Medical college has a good reputation about medical education & moral education. Nice natural environment made the campus more beautiful & charming. Low cost treatment & investigation are available here also. Emergency service are open daily for 24 hours.",
+                "rating":4
             }
         ],
         "events":[
             {
-                "eventname":"",
-                "starting_date":"",
-                "closing_date":"",
-                "eventdescription":""
+                "eventname":"Admission",
+                "starting_date":"25 May, 2024",
+                "closing_date":"20 June, 2024",
+                "eventdescription":"Students who have passed SSC in 2016 and HSC in 2018 0r 2015 and 2017 respectively and should have total GPA 9.00. (minimum requirement of GPA in SSC or HSC IS 3.50)"
             }
         ]
 
     },
     {
 
-        "id":1,
-        "collegename": "",
-        "clgimage":"",
-        "collegelocation":"",
-        "collegedes":"",
+        "id":3,
+        "collegename": "Chittagong Institute of Engineering & Technology",
+        "clgimage":["https://i.ibb.co/DRBL8hG/image.png","https://i.ibb.co/0mXpTRG/image.png"],
+        "collegelocation":"129, CTC Shaban, Muradpur, Bishwaroad, Chittagong",
+        "collegedes":"Chittagong University of Engineering & Technology (Bengali: চট্টগ্রাম প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয়), commonly referred to as CUET, is a public engineering and technological research university in Bangladesh located in Raozan in Chittagong. Established in 1968 as the Chittagong Engineering College and gained autonomous graduate school status in 2003, this university is a state funded institution, maintaining special emphasis on teaching and research of engineering, technology, architecture and planning under five faculties and seventeen academic departments. Number of present students including undergraduate, graduate and post-graduate is around 4500 with 900 students graduating each year.",
+        "grad_img":"https://i.ibb.co/kxDhjjw/image.png",
         "research_papers": [
          {
-           "title":"",
-           "link":""
+           "title":"Radionuclide Transfer in Tea Cultivation: Assessing Radiological Risks in the Largest and First Established Tea Garden in Bangladesh",
+           "author":"M.M. Mahfuz Siraz, Mohammad Shafiqul Alam",
+           "link":"https://www.researchgate.net/publication/380538115_Radionuclide_Transfer_in_Tea_Cultivation_Assessing_Radiological_Risks_in_the_Largest_and_First_Established_Tea_Garden_in_Bangladesh"
+         },   
+         {
+           "title":"Insight into the Physical Properties of the Chalcogenide XZrS3 (X = Ca, Ba) Perovskites: A First-Principles Computation",
+           "author":"Md. Zillur Rahman, Sayed Sahriar Hasan",
+           "link":"https://www.researchgate.net/publication/380489318_Insight_into_the_Physical_Properties_of_the_Chalcogenide_XZrS3_X_Ca_Ba_Perovskites_A_First-Principles_Computation"
          }   
         ],
         "reviews":[
             {
-                "username":"",
-                "comment":"",
-                "rating":""
+                "username":"Nazmul Hassan",
+                "comment":"Chittagong Institute of Engineering & Technology (CIET) which is affiliated by Chittagong University situated in the center of the port city Chittagong. At present CIET offers 4 year B.Sc. in Engineering (Certificates given by CU) under five departments. The Institute is highly motivated and aimed to take the leadership in the promotion of technological development and management of the nation by strengthening education and research environments.",
+                "rating":3
+            },
+            {
+                "username":"Nayeem Uddin Ahmed Khan",
+                "comment":"Studies Electrical & Electronics Engineering - EEE at Chittagong Institute of Engineering & Technology - CIET which is affiliated by University Of Chittagong.",
+                "rating":5
             }
         ],
         "events":[
             {
-                "eventname":"",
-                "starting_date":"",
-                "closing_date":"",
-                "eventdescription":""
+                "eventname":"Admission On Computer Science And Engineering",
+                "starting_date":"20 May, 2024",
+                "closing_date":"10 July, 2024",
+                "eventdescription":"ইহা একটি চট্টগ্রাম বিশ্ববিদ্যালয় অধিভুক্ত ইঞ্জিনিয়ারিং ইনষ্টিটিউট সকল শিক্ষা বোর্ডের অধীনে ২০১৭-২০১৯ সালের মাধ্যমিক ২০২০-২০২১ সালের উচ্চ মাধ্যমিক সমমানের পরীক্ষা অথবা ২০১৫-২০১৭ সালের মাধ্যমিক ও ২০২০-২০২১ সালে ৪ ( চার ) বছর মেয়াদী ডিপ্লোমা ইন ইঞ্জিনিয়ারিং এ কৃতকার্য ছাত্র-ছাত্রী ভর্তি পরীক্ষায় অংশ গ্রহন করতে পারবে। মাননীয় ডিন, ইঞ্জিনিয়ারিং অনুষদ, চ.বি-র অনুকূলে অগ্রনী ব্যাংক যেকোন শাখা থেকে ৬০০/- (ছয়শত) টাকা পে-অর্ডার মূলে ফরম সংগ্রহ করা যাবে অথবা চিয়েটের অধ্যক্ষের কার্যালয় থেকে বা ওয়েব সাইট  থেকে অনলাইনে আবেদন করা যাবে। মাধ্যমিক বা সমমান পরীক্ষায় সর্বনিম্ন জি.পি.এ. ২.৭৫ উচ্চ মাধ্যমিক বা সমমান পরীক্ষায় সর্বনিম্ন জি.পি.এ. ২.৭৫ উভয় মিলে সর্বমোট জি.পি.এ. ৬.০০ থাকতে হবে। ডিপ্লোমা ধারীদের ক্ষেত্রে মাধ্যমিক বা সমমান পরীক্ষায় সর্বনিম্ন জিপিএ ২.৭৫ এবং ডিপ্লোমা ইন ইঞ্জিনিয়ারিং এ সর্বনিম্ন জি.পি.এ. – ২.৪০ থাকতে হবে, উভয় মিলে জি.পি.এ. ৫.৮৫ থাকতে হবে।ভর্তির জন্য মাধ্যমিক ও উচ্চ মাধ্যমিক, ডিপ্লোমা ইন-ইঞ্জিনিয়ারিং এর ট্রান্সক্রিপ্ট ও তিন কপি পাসপোর্ট সাইজ সত্যায়িত ছবি ভর্তির সময় জমা দিতে হবে।"
             }
         ]
 
     },
     {
 
-        "id":1,
-        "collegename": "",
+        "id":4,
+        "collegename": "Chittagong Institute Of Fashion & Technology (CITF)",
         "clgimage":"",
-        "collegelocation":"",
+        "collegelocation":"Road-2, House-27, O.R. Nizam Road, GEC, Chattogram.",
         "collegedes":"",
         "research_papers": [
          {
