@@ -2,7 +2,7 @@ import React from 'react';
 
 const ReviewSection = ({ collegeName, reviews }) => {
   return (
-    <div className="py-8 px-8 bg-slate-50">
+    <div className="py-8 px-8 bg-slate-50 h-[400px] overflow-y-scroll">
       <h2 className="text-2xl font-bold mb-4">Reviews for {collegeName}</h2>
       <div className='flex flex-wrap '>
       {reviews.map((review, index) => (

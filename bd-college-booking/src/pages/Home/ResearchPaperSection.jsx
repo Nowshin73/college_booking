@@ -2,7 +2,7 @@ import React from 'react';
 
 const ResearchPapersSection = ({ collegeName, researchPapers }) => {
   return (
-    <div className="py-8 bg-blue-950 text-white p-4 h-[250px]">
+    <div className="py-8 bg-blue-950 text-white p-4 h-[300px] overflow-y-scroll">
       <h2 className="text-2xl font-bold mb-4">Research Papers for {collegeName}</h2>
       <ul className="list-decimal text-blue-300 pl-8">
         {researchPapers.map((paper, index) => (
