@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import ActiveLink from "./ActiveLink";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const Navbar = () => {
+  const { user } = useContext(AuthContext);
+
   return (
-    
     <nav className="bg-blue-950 p-4">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
@@ -20,15 +22,22 @@ const Navbar = () => {
             <ActiveLink to='/admission' className="text-white hover:text-gray-300">
               Admission
             </ActiveLink>
-            <ActiveLink to='/mycollege' className="text-white hover:text-gray-300">
-              My College
-            </ActiveLink>
-            <ActiveLink to='/profile' className="text-white hover:text-gray-300">
-              Profile
-            </ActiveLink>
-            <ActiveLink to='/login' className="text-white hover:text-gray-300">
-              Login
-            </ActiveLink>
+            {user ? (
+              <>
+                <ActiveLink to='/mycollege' className="text-white hover:text-gray-300">
+                  My College
+                </ActiveLink>
+                <ActiveLink to='/profile' className="text-white hover:text-gray-300">
+                  Profile
+                </ActiveLink>
+              </>
+            )
+              :
+              <ActiveLink to='/login' className="text-white hover:text-gray-300">
+                Login
+              </ActiveLink>
+            }
+
           </div>
         </div>
       </div>
