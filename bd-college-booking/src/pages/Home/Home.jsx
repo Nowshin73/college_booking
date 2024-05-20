@@ -48,7 +48,9 @@ const Home = () => {
             <Banner></Banner>
 
             {/* Search Section Added */}
-            <div className="container mx-auto py-14 bg-white">
+            <section className=" py-10">
+
+            <div className="container mx-auto py-14 ">
                 <div className="w-full flex md:w-1/3 mx-auto">
                     <input
                         type="text"
@@ -83,9 +85,11 @@ const Home = () => {
                 </div>
             </div>)
             }
+            </section>
+          
             <section>
-                <div className="container bg-[#f1f1f1]  mx-auto mt-8 mb-20">
-                    <h2 className="text-2xl font-bold mb-4 text-center"> Graduation Day</h2>
+                    <h2 className="text-5xl font-bold my-20 text-center"> Graduation Day</h2>
+                <div className="container bg-[#f1f1f1] mx-auto ">
                     <div className="hidden md:block">
                         <Swiper
                             slidesPerView={2.3}
@@ -122,6 +126,7 @@ const Home = () => {
 
             </section >
             <section>
+                     <h2 className="text-5xl font-bold my-20 text-center"> Research Papers</h2>
                 <div className="container mx-auto px-4 flex justify-center flex-wrap gap-2">
                     {allColleges.map((college, index) => (
                         <div key={index} className="mb-8 w-[450px] p-4  ">
@@ -133,7 +138,8 @@ const Home = () => {
                 </div>
             </section>
             <section>
-                <div className="container mx-auto px-4 flex flex-wrap justify-center gap-2">
+                <h2 className="text-5xl font-bold my-20 text-center">Reviews</h2>
+                <div className="container mx-auto px-4 flex flex-wrap justify-center gap-2 ">
                     {allColleges.map((college, index) => (
                         <div key={index} className="mb-8 w-[450px] p-4  ">
                             
