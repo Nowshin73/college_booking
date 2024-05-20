@@ -18,8 +18,17 @@ const CollegeDetail = () => {
           </div>
         </div>
         <div>
-          <h2 className="text-xl font-bold">Events Details</h2>
-          <p className="mt-2">{college.events}</p>
+          <h2 className="text-xl font-bold">Admission Details</h2>
+          {
+            college.events.map((data,index)=>(
+              <>
+              <p className="mt-2">{data.eventname}</p>
+          <p className="mt-2">{data.starting_date}</p>
+          <p className="mt-2">{data.closing_date}</p>
+          <p className="mt-2">{data.eventdescription}</p>
+              </>
+            ))
+          }
           <h2 className="text-xl font-bold mt-4">Research Works</h2>
           <ul className="list-disc list-inside mt-2">
             {college.research_papers.map((paper, index) => (

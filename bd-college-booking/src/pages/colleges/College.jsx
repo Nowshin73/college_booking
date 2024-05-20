@@ -16,7 +16,7 @@ const College = ({ college }) => {
           Rating: {college.rating}
         </p>
         <p className="text-gray-700 text-base mb-2">
-          Admission Date: {college.admission_date}
+          College Location: {college.collegelocation}
         </p>
         <p className="text-gray-700 text-base mb-2">
           Research Count: {college.research_papers.length}
