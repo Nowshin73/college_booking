@@ -40,6 +40,7 @@ async function run() {
       const result = await collegeCollection.find().toArray();
       res.send(result);
     })
+
     app.get('/colleges/:id', async (req, res) => {
       const id = req.params.id;
       const query = { _id: new ObjectId(id) }
@@ -47,7 +48,7 @@ async function run() {
       const options = {
         // Include only the `title` and `imdb` fields in the returned document
         projection: {
-          id: 1, collegename: 1, clgimage: 1, collegelocation: 1, collegedes: 1, events: 1,
+          id: 1, collegename: 1, category:1, clgimage: 1, collegelocation: 1, collegedes: 1, events: 1,
           research_papers: 1, reviews: 1, grad_img: 1
         },
       };
@@ -121,7 +122,17 @@ async function run() {
       const result = await userCollection.find().toArray();
       res.send(result);
     });
-
+    app.get('/colleges', async (req, res) => {
+      const category = req.query.category;
+      if (category) {
+        const filteredColleges = await collegeCollection.find(category).toArray();
+        console.log(filteredColleges);
+        return res.send(filteredColleges)
+      }
+      else {
+        return res.send({message: 'category not found'});
+      }
+    });
     app.post('/users', async (req, res) => {
       const user = req.body;
       const query = { email: user.email }

@@ -1,52 +1,33 @@
 import React, { useEffect, useState } from 'react'; // Import the CollegeCard component
 import College from './College';
 import Siderbar from './sidebar/Siderbar';
+import ActiveSideLink from './sidebar/ActiveSideLink';
 
 
 const Colleges = () => {
   const [colleges, setColleges] = useState([]);
-  const [filteredcolleges, setFilteredColleges] = useState([]);
-  //const [instructors, setInstructors] = useState([]);
+  useEffect(()=>{
+    fetch("http://localhost:5000/colleges")
+      .then(res=>res.json())
+      .then(data=>setColleges(data))
+      .catch(err=>console.error("error fetching:", err));
+  },[]);
 
-  useEffect(() => {
-    fetch(' https://college-booking-rosy.vercel.app/colleges')
-      .then(response => response.json())
-      .then(data => setColleges(data))
-      .catch(error => console.error('Error fetching classes:', error));
-  }, []);
-  const Category = (college) => {
-    if (college == "all") {
-      setFilteredColleges(colleges);
-    }
-    if (college == "medical") {
-      const medical = colleges.filter(data => colleges.category === "Medical");
-      console.log(medical);
-      setFilteredColleges(colleges.filter(data => colleges.category === "Medical"));
-    }
-    if (college == "engg") {
-      const engg = colleges.filter(data => colleges.category === "Engineering");
-      setFilteredColleges(colleges.filter(data => colleges.category === "Engineering"));
-    }
-    if (college == "fasion") {
-      const fasion = colleges.filter(data => colleges.category === "Fasion & Design");
-      setFilteredColleges(colleges.filter(data => colleges.category === "Fasion & Design"));
-    }
-  }
   const allColleges = colleges.slice(0, 20);
   return (
     <div className="container  flex">
-      <div className='sidebar flex flex-col w-[20%] bg-white shadow-md text-black font-semibold'>
-        <button className='p-5' onClick={() => Category("all")}>All Colleges</button>
-        <button className='p-5' onClick={() => Category("medical")}> Medical Colleges</button>
-        <button className='p-5' onClick={() => Category("engg")}> Engineering Colleges</button>
-        <button className='p-5' onClick={() => Category("fasion")}>Fasion & Design</button>
-      </div>
+      {/* <div className='sidebar flex flex-col w-[20%] bg-white shadow-md text-black font-semibold'>
+        <ActiveSideLink to='/all' className='p-5' onClick={() => Category("All")}>All Colleges</ActiveSideLink>
+        <ActiveSideLink to='/Medical' className='p-5' onClick={() => Category("Medical")}> Medical Colleges</ActiveSideLink>
+        <ActiveSideLink to='/Engineering' className='p-5' onClick={() => Category("Engineering")}> Engineering Colleges</ActiveSideLink>
+        <ActiveSideLink to='/Fasion' className='p-5' onClick={() => Category("Fasion")}>Fasion & Design</ActiveSideLink>
+      </div> */}
 
-      <div className='clg-container grid md:grid-cols-2 lg:grid-cols-3 justify-center'>
-        {filteredcolleges.map((college) => (
+     <div className='clg-container grid md:grid-cols-2 lg:grid-cols-3 justify-center'>
+        {allColleges.map((college) => (
           <College key={college.id} college={college} />
         ))}
-      </div>
+      </div> 
     </div>
   );
 };
