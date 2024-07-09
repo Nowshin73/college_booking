@@ -1,5 +1,6 @@
 .classimg{
     transition: 2.5s ease-in-out;
+
 }
 .classimg:hover{
     transform: scale(2);

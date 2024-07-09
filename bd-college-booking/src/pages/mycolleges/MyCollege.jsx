@@ -17,7 +17,7 @@ const MyCollege = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container font-serif mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">{collegeDetails.name}</h1>
       <img src={collegeDetails.image} alt={collegeDetails.name} className="w-32 h-32 mb-4" />
       {/* Display other college details here */}

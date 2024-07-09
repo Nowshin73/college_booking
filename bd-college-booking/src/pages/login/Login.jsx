@@ -70,7 +70,7 @@ const Login = () => {
   };
 
   return (
-    <div className="login min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="login font-serif min-h-screen flex items-center justify-center bg-gray-100">
       <div className="max-w-md w-full mx-auto bg-[#f4f1f1d6] rounded-lg shadow-md py-5 px-10">
         <h1 className="text-2xl font-semibold mb-6">Login</h1>
         {errorMessage && <p className="text-red-500 mb-4">{errorMessage}</p>}

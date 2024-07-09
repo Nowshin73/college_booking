@@ -15,7 +15,7 @@ const Home = () => {
     //const [instructors, setInstructors] = useState([]);
 
     useEffect(() => {
-        fetch(' https://college-booking-rosy.vercel.app/colleges')
+        fetch('http://localhost:5000/colleges')
             .then(response => response.json())
             .then(data => setColleges(data))
             .catch(error => console.error('Error fetching classes:', error));
@@ -43,7 +43,7 @@ const Home = () => {
    
     const gallery = colleges.slice(0, 5);
     return (
-        <div>
+        <div className="font-serif">
             {/* Banner section */}
             <Banner></Banner>
 

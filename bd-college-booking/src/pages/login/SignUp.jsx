@@ -43,7 +43,7 @@ const SignUp = () => {
       .catch(error => console.log(error));
     }
   return (
-    <div className="login container w-full py-10">
+    <div className="login font-serif container w-full py-10">
       <form onSubmit={handleSubmit(onSubmit)} className='mx-auto max-w-[500px] bg-[#f4f1f1d6] rounded-lg shadow-md py-5 px-10'>
         <h2 className="text-2xl font-bold mb-4 text-center">Registration Page</h2>
         <div className="mb-4">

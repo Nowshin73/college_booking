@@ -2,7 +2,7 @@ import React from 'react'
 
 const userProfile = () => {
   return (
-    <div>userProfile</div>
+    <div className='font-serif'>userProfile</div>
   )
 }
 

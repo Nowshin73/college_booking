@@ -39,7 +39,7 @@ const AdmissionForm = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container font-serif mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Admission Form</h1>
       <div className="grid grid-cols-2 gap-4">
         {/* College names */}

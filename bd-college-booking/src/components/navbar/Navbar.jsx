@@ -6,7 +6,7 @@ const Navbar = () => {
   const { user } = useContext(AuthContext);
 
   return (
-    <nav className="bg-blue-950 p-4">
+    <nav className="bg-blue-950 p-4 font-serif">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <div>
