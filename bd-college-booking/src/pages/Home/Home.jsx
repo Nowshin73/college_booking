@@ -15,7 +15,7 @@ const Home = () => {
     //const [instructors, setInstructors] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/colleges')
+        fetch('https://college-booking-rosy.vercel.app/colleges')
             .then(response => response.json())
             .then(data => setColleges(data))
             .catch(error => console.error('Error fetching classes:', error));

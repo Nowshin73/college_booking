@@ -17,7 +17,7 @@ function Banner() {
     //const [instructors, setInstructors] = useState([]);
 
     useEffect(() => {
-        fetch(' http://localhost:5000/banner')
+        fetch(' https://college-booking-rosy.vercel.app/banner')
             .then(response => response.json())
             .then(data => setBanner(data))
             .catch(error => console.error('Error fetching banner:', error));

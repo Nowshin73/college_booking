@@ -110,6 +110,7 @@ async function run() {
       };
       const result = await userCollection.findOne(query, options);
       res.send(result);
+      
     })
 
     // users related apis
