@@ -1,0 +1,24 @@
+{
+  "_id": "user_id",
+  "name": "John",
+  "email": "john@gmail.com",
+  "applied_colleges": [
+    {
+      "college_id": "18",
+      "college_name": "HIJ Architecture Institute",
+      "fee_paid": false,
+      "exam_date": "2023-09-10",
+      "marks": 78,
+      "total_marks": 100,
+      "pass_marks": 60,
+      "status": "passed"
+    }
+  ],
+  "research_submissions": [
+    {
+      "college_id": "18",
+      "title": "Green Building Innovation",
+      "file_url": "pdf_link"
+    }
+  ]
+}

@@ -29,7 +29,22 @@ async function run() {
     const mycollegeCollection = client.db("collegebooking").collection("mycolleges");
     const userCollection = client.db("collegebooking").collection("users");
     const bannerCollection = client.db("collegebooking").collection("banner");
+    const admissionCollection = client.db("collegebooking").collection("admission");
     
+    //post admission
+    app.post('/admission', async (req, res) => {
+      const admission = req.body;
+      const result = await admissionCollection.insertOne(admission);
+      res.send(result);
+    });
+    //get admission
+
+    app.get('/admission', async (req, res) => {
+      const result = await admissionCollection.find().toArray();
+      res.send(result);
+    });
+
+
     //get banner
     app.get('/banner', async (req,res) => {
        const result = await bannerCollection.find().toArray();

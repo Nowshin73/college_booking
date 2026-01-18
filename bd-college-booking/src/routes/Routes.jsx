@@ -10,6 +10,7 @@ import MyCollege from '../pages/mycolleges/MyCollege'
 import AdmissionForm from '../pages/admission/AdmissionForm'
 import CollegeDetail from '../pages/colleges/CollegeDetail'
 import PrivateRoute from './PrivateRoute'
+import UserDashboard from '../pages/user/Userdashboard'
 
 
 export const router = createBrowserRouter([
@@ -47,8 +48,8 @@ export const router = createBrowserRouter([
             element: <MyCollege></MyCollege>
         },
         {
-            path: '/profile/:id',
-            element: <userProfile></userProfile>
+            path: '/profile',
+            element: <UserDashboard></UserDashboard>
         },
         {
             path: '/admission',
