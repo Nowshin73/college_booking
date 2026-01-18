@@ -1,55 +1,66 @@
-.footer{
-   display: flex;
-   flex-direction: column;
+.footer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: rgb(25, 25, 25);
 }
-.footer-container{
+
+.footer-container {
     margin-top: 3rem;
-    display: flex; 
-    gap: 15rem;
+    display: flex;
+    gap: 10rem;
 }
-.f-wrapper{
+
+.f-wrapper {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     font-weight: 500;
 }
-.f-wrapper>h3{
+
+.f-wrapper>h3 {
     color: white;
     font-size: 20px;
 }
-.f-wrapper>a{
+
+.f-wrapper>a {
     color: white;
     font-size: 16px;
 }
-.footer-bottom{
+
+.footer-bottom {
     padding-top: 5rem;
     padding-bottom: 2rem;
     display: flex;
-    gap: 20rem;
+    gap: 10rem;
     color: white;
-   background: rgb(25, 25, 25);
+    background: rgb(25, 25, 25);
 }
-hr{
+
+hr {
     background: white;
 }
-.f-left{
-    width: 400px;
+
+.f-left {
+   
     font-size: 16px;
 }
-.f-right{
-display: flex;
-gap: 3rem;
+
+.f-right {
+    display: flex;
+    gap: 3rem;
 }
+
 @media (max-width:800px) {
-    .footer-container{
-      flex-direction: column;
-      gap: 2rem;
-    }  
-    .footer-bottom{
-      flex-direction: column;
-      gap: 2rem;
+    .footer-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 1rem;
     }
 }
