@@ -9,7 +9,7 @@ const College = ({ college }) => {
   };
 
   return (
-    <div className="max-w-xl bg-white rounded overflow-hidden shadow-lg m-4">
+    <div className=" college max-w-xl bg-white rounded hover:-translate-y-2.5 overflow-hidden shadow-lg m-4">
       <img className="w-full h-[300px]" src={college.clgimage} alt={college.collegename} />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{college.collegename}</div>

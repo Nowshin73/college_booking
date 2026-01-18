@@ -15,7 +15,7 @@ const Colleges = () => {
 
   const allColleges = colleges.slice(0, 20);
   return (
-    <div className="container font-serif flex">
+    <div className="container font-serif flex flex-col justify-center items-center">
       {/* <div className='sidebar flex flex-col w-[20%] bg-white shadow-md text-black font-semibold'>
         <ActiveSideLink to='/all' className='p-5' onClick={() => Category("All")}>All Colleges</ActiveSideLink>
         <ActiveSideLink to='/Medical' className='p-5' onClick={() => Category("Medical")}> Medical Colleges</ActiveSideLink>
@@ -23,7 +23,7 @@ const Colleges = () => {
         <ActiveSideLink to='/Fasion' className='p-5' onClick={() => Category("Fasion")}>Fasion & Design</ActiveSideLink>
       </div> */}
 
-     <div className='clg-container grid md:grid-cols-2 lg:grid-cols-3 justify-center'>
+     <div className='clg-container grid md:grid-cols-2  justify-center'>
         {allColleges.map((college) => (
           <College key={college.id} college={college} />
         ))}
