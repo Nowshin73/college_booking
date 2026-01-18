@@ -3,17 +3,46 @@
   "name": "John",
   "email": "john@gmail.com",
   "applied_colleges": [
-    {
-      "college_id": "18",
-      "college_name": "HIJ Architecture Institute",
-      "fee_paid": false,
-      "exam_date": "2023-09-10",
-      "marks": 78,
-      "total_marks": 100,
-      "pass_marks": 60,
-      "status": "passed"
-    }
-  ],
+  {
+    "college_id": "18",
+    "college_name": "BGC TRUST MEDICAL COLLEGE",
+    "clgimage": "https://i.ibb.co/YpwNv1M/image.png",
+    "fee_paid": false,
+    "exam_date": "2026-01-10",
+    "marks": 0,
+    "total_marks": 100,
+    "pass_marks": 60,
+    "status": "upcoming",
+    "rank": 0,
+    "called_students": 0
+  },
+  {
+    "college_id": "12",
+    "college_name": "CHITTAGONG ENGINEERING COLLEGE",
+    "clgimage": "https://i.ibb.co/31B6kzW/image.png",
+    "fee_paid": true,
+    "exam_date": "2026-01-18",
+    "marks": 75,
+    "total_marks": 100,
+    "pass_marks": 60,
+    "status": "passed",
+    "rank": 10,
+    "called_students": 50
+  },
+  {
+    "college_id": "7",
+    "college_name": "CHITTAGONG COMMERCE COLLEGE",
+    "clgimage": "https://i.ibb.co/NjXLXqX/image.png",
+    "fee_paid": false,
+    "exam_date": "2026-02-02",
+    "marks": 0,
+    "total_marks": 100,
+    "pass_marks": 50,
+    "status": "upcoming",
+    "rank": 0,
+    "called_students": 0
+  }
+],
   "research_submissions": [
     {
       "college_id": "18",
