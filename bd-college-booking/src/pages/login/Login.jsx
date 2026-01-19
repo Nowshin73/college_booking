@@ -43,7 +43,7 @@ const Login = () => {
         const loggedInUser = result.user;
         const updateuser = updateUserProfile(data.name, data.photoURL)
         if (updateuser) {
-          axios.post('https://b7a12-summer-camp-server-side-nowshin73.vercel.app/users', { email: data.email, name: data.name, photo: data.photoURL })
+          axios.post('http://localhost:5000/users', { email: data.email, name: data.name, photo: data.photoURL })
         }
         setUser(loggedInUser);
       })
@@ -54,7 +54,7 @@ const Login = () => {
 
   const onSubmit = async (data) => {
     try {
-      const response = await axios.post('https://b7a12-summer-camp-server-side-nowshin73.vercel.app/jwt', data);
+      const response = await axios.post('https://college-booking-rosy.vercel.app/jwt', data);
       const token = response.data.token;
       localStorage.setItem('token', token);
 
