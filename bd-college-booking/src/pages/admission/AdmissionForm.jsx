@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const AdmissionForm = () => {
   const [selectedCollege, setSelectedCollege] = useState(null);
   const [colleges, setColleges] = useState([]);
-
+  const { user } = useContext(AuthContext);
   const [candidate, setCandidate] = useState({
     name: "",
     fatherName: "",
@@ -24,7 +25,7 @@ const AdmissionForm = () => {
 
 
   useEffect(() => {
-    fetch("http://localhost:5000/colleges")
+    fetch("https://college-booking-rosy.vercel.app/colleges")
       .then((response) => response.json())
       .then((data) => setColleges(data))
       .catch((error) => console.error("Error fetching colleges:", error));
@@ -49,7 +50,6 @@ const handleSubmit = async (e) => {
   );
 
   const applicationData = {
-    userId: user?.uid,
     userEmail: user?.email,
     collegeName: selectedCollegeData?.collegename,
     appliedDate: new Date().toISOString().split("T")[0], // YYYY-MM-DD
@@ -67,12 +67,9 @@ const handleSubmit = async (e) => {
 
     console.log("Submitted:", data);
 
-    Swal.fire({
-      icon: "success",
-      title: "Application Submitted Successfully",
-      showConfirmButton: false,
-      timer: 1500,
-    });
+
+
+    alert("Application Submitted Successfully");
 
   } catch (error) {
     console.error("Submission Error:", error);
@@ -99,8 +96,8 @@ const inputClass =
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {colleges.map((college) => (
               <div
-                key={college.id}
-                onClick={() => handleCollegeClick(college.id)}
+                key={college._id}
+                onClick={() => handleCollegeClick(college._id)}
                 className={`p-3 text-center rounded-lg border-2 cursor-pointer transition shadow-sm hover:shadow-md ${selectedCollege === college.id
                     ? "bg-indigo-600 text-white border-indigo-600"
                     : "bg-indigo-50 border-indigo-200 hover:bg-indigo-100"

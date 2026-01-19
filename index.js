@@ -32,7 +32,7 @@ const client = new MongoClient(uri, {
     const admissionCollection = client.db("collegebooking").collection("admission");
     
     //post admission
-    app.post('/admission', async (req, res) => {
+    app.post('/admissions', async (req, res) => {
       const admission = req.body;
       const result = await admissionCollection.insertOne(admission);
       res.send(result);
